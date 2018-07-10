@@ -16,7 +16,7 @@ public class OpenGoogleTest
     }
 @Test
 public void siteOpeningTest(){
-    //driver.get("https://www.google.com/");
+    //driver.get("https://www.odnoklassniki.ru");
     driver.get("https://www.google.com");
 }
 
