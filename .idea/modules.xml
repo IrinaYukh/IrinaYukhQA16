@@ -5,6 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstProject.iml" filepath="$PROJECT_DIR$/.idea/modules/firstProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/firstProject_main.iml" group="firstProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/firstProject_test.iml" group="firstProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homeOwnTest.iml" filepath="$PROJECT_DIR$/.idea/modules/homeOwnTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homeOwnTest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/homeOwnTest_main.iml" group="homeOwnTest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homeOwnTest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/homeOwnTest_test.iml" group="homeOwnTest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homeOwnTests.iml" filepath="$PROJECT_DIR$/.idea/modules/homeOwnTests.iml" group="homeOwnTests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homeOwnTests/homeOwnTests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/homeOwnTests/homeOwnTests_main.iml" group="homeOwnTests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homeOwnTests/homeOwnTests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/homeOwnTests/homeOwnTests_test.iml" group="homeOwnTests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/secondProject.iml" filepath="$PROJECT_DIR$/.idea/modules/secondProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/secondProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/secondProject_main.iml" group="secondProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/secondProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/secondProject_test.iml" group="secondProject" />

@@ -4,6 +4,10 @@
     <bytecodeTargetLevel>
       <module name="firstProject_main" target="1.8" />
       <module name="firstProject_test" target="1.8" />
+      <module name="homeOwnTest_main" target="1.8" />
+      <module name="homeOwnTest_test" target="1.8" />
+      <module name="homeOwnTests_main" target="1.8" />
+      <module name="homeOwnTests_test" target="1.8" />
       <module name="secondProject_main" target="1.8" />
       <module name="secondProject_test" target="1.8" />
     </bytecodeTargetLevel>
