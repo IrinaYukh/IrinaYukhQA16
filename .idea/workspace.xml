@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c75ae54-4e3d-4240-ba21-4637238bf0b4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstProject/out/test/classes/OpenGoogleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/firstProject/out/test/classes/OpenGoogleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstProject/out/test/classes/SimpleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/firstProject/out/test/classes/SimpleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstProject/src/test/java/OpenGoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstProject/src/test/java/OpenGoogleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/firstProject/.gradle/" />
     <ignored path="$PROJECT_DIR$/firstProject/build/" />
@@ -71,29 +65,31 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second-web-selenium-by-recorder/build.gradle">
+    <leaf>
+      <file leaf-file-name="Trello.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/second-web-selenium-by-recorder/src/test/java/Trello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="408">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="method#fillPasswordField#0;class#Trello#0" />
+                <element signature="method#isElementPresent#0;class#Trello#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trello.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/second-web-selenium-by-recorder/src/test/java/Trello.java">
+      <file leaf-file-name="EBay.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/second-web-selenium-by-recorder/src/test/java/EBay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="65">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#1245#1246#0" expanded="true" />
-                <element signature="e#1288#1289#0" expanded="true" />
-                <element signature="method#isElementPresent#0;class#Trello#0" />
+                <element signature="method#click_signIn_button#0;class#EBay#0" />
+                <element signature="method#fill_userId_field#0;class#EBay#0" />
+                <element signature="method#fill_Pass_field#0;class#EBay#0" />
               </folding>
             </state>
           </provider>
@@ -1751,12 +1747,14 @@
         <option value="$PROJECT_DIR$/firstProject/src/test/java/OpenGoogleTest.java" />
         <option value="$PROJECT_DIR$/second-web-selenium-by-recorder/build.gradle" />
         <option value="$PROJECT_DIR$/second-web-selenium-by-recorder/src/test/java/Trello.java" />
+        <option value="$PROJECT_DIR$/second-web-selenium-by-recorder/src/test/java/EBay_HW.java" />
+        <option value="$PROJECT_DIR$/second-web-selenium-by-recorder/src/test/java/EBay.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
-    <option name="y" value="49" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-15" />
+    <option name="y" value="48" />
     <option name="width" value="2835" />
     <option name="height" value="1521" />
   </component>
@@ -1766,25 +1764,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="firstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
             <path>
               <item name="firstProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="second-web-selenium-by-recorder" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -1811,8 +1793,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1841,7 +1824,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Trello">
+  <component name="RunManager" selected="TestNG.EBay">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -1861,6 +1844,52 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="EBay" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="second-web-selenium-by-recorder_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EBay" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="EBay_HW" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="second-web-selenium-by-recorder_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EBay_HW" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="OpenGoogleTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="firstProject_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1868,75 +1897,6 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OpenGoogleTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="SimpleTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="firstProject_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SimpleTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="SimpleTest.navigateToQALightWebSite" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="firstProject_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SimpleTest" />
-      <option name="METHOD_NAME" value="navigateToQALightWebSite" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="homeOwnTest_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test1" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -1976,6 +1936,29 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="Trello.testTrello" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="second-web-selenium-by-recorder_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Trello" />
+      <option name="METHOD_NAME" value="testTrello" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -2000,18 +1983,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.OpenGoogleTest" />
-      <item itemvalue="TestNG.SimpleTest.navigateToQALightWebSite" />
-      <item itemvalue="TestNG.Test1" />
-      <item itemvalue="TestNG.SimpleTest" />
       <item itemvalue="TestNG.Trello" />
+      <item itemvalue="TestNG.Trello.testTrello" />
+      <item itemvalue="TestNG.EBay" />
+      <item itemvalue="TestNG.EBay_HW" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EBay" />
+        <item itemvalue="TestNG.EBay_HW" />
         <item itemvalue="TestNG.Trello" />
+        <item itemvalue="TestNG.Trello.testTrello" />
         <item itemvalue="TestNG.OpenGoogleTest" />
-        <item itemvalue="TestNG.SimpleTest.navigateToQALightWebSite" />
-        <item itemvalue="TestNG.SimpleTest" />
-        <item itemvalue="TestNG.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -2029,27 +2012,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleTest_navigateToQALightWebSite - 2018.07.11 at 09h 53m 57s.xml">
-      <configuration name="SimpleTest.navigateToQALightWebSite" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenGoogleTest - 2018.07.12 at 18h 06m 12s.xml">
-      <configuration name="OpenGoogleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Trello - 2018.07.12 at 19h 10m 54s.xml">
-      <configuration name="Trello" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Trello - 2018.07.12 at 19h 38m 03s.xml">
-      <configuration name="Trello" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Trello - 2018.07.12 at 20h 26m 17s.xml">
-      <configuration name="Trello" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Trello - 2018.07.12 at 20h 28m 04s.xml">
-      <configuration name="Trello" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Trello - 2018.07.12 at 20h 50m 58s.xml">
-      <configuration name="Trello" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Trello - 2018.07.12 at 21h 30m 51s.xml">
       <configuration name="Trello" configurationId="TestNG" />
     </history-entry>
@@ -2059,9 +2021,31 @@
     <history-entry file="Trello - 2018.07.12 at 21h 31m 50s.xml">
       <configuration name="Trello" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Trello_testTrello - 2018.07.13 at 13h 20m 45s.xml">
+      <configuration name="Trello.testTrello" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Trello_testTrello - 2018.07.13 at 14h 24m 08s.xml">
+      <configuration name="Trello.testTrello" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Trello - 2018.07.13 at 14h 25m 02s.xml">
+      <configuration name="Trello" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EBay - 2018.07.13 at 15h 06m 29s.xml">
+      <configuration name="EBay" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EBay - 2018.07.13 at 15h 12m 13s.xml">
+      <configuration name="EBay" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EBay_HW - 2018.07.13 at 15h 20m 34s.xml">
+      <configuration name="EBay_HW" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EBay_HW - 2018.07.13 at 15h 21m 24s.xml">
+      <configuration name="EBay_HW" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -2071,13 +2055,13 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13953489" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291592" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21214575" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.3291536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21862349" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.15742397" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.23076923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -2104,10 +2088,30 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/second-web-selenium-by-recorder/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second-web-selenium-by-recorder/src/test/java/Trello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding>
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="method#fillPasswordField#0;class#Trello#0" />
+            <element signature="method#isElementPresent#0;class#Trello#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/second-web-selenium-by-recorder/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -2269,31 +2273,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homeOwnTest/src/test/java/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/firstProject/src/test/java/OpenGoogleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstProject/src/test/java/SimpleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homeOwnTest/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -2304,13 +2287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second-web-selenium-by-recorder/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -2318,18 +2294,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/second-web-selenium-by-recorder/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeOwnTest/src/test/java/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeOwnTest/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstProject/src/test/java/SimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/second-web-selenium-by-recorder/src/test/java/Trello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="408">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="method#fillPasswordField#0;class#Trello#0" />
             <element signature="method#isElementPresent#0;class#Trello#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second-web-selenium-by-recorder/src/test/java/EBay_HW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="40" column="69" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="69" />
+          <folding>
+            <element signature="method#fill_Pass_field#0;class#EBay_HW#0" />
+            <element signature="method#tearDown#0;class#EBay#0" />
+            <element signature="method#isElementPresent#0;class#EBay#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second-web-selenium-by-recorder/src/test/java/EBay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="method#click_signIn_button#0;class#EBay#0" />
+            <element signature="method#fill_userId_field#0;class#EBay#0" />
+            <element signature="method#fill_Pass_field#0;class#EBay#0" />
           </folding>
         </state>
       </provider>
