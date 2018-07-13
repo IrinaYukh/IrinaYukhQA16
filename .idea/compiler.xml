@@ -8,6 +8,10 @@
       <module name="homeOwnTest_test" target="1.8" />
       <module name="homeOwnTests_main" target="1.8" />
       <module name="homeOwnTests_test" target="1.8" />
+      <module name="recorder_main" target="1.8" />
+      <module name="recorder_test" target="1.8" />
+      <module name="second-web-selenium-by-recorder_main" target="1.8" />
+      <module name="second-web-selenium-by-recorder_test" target="1.8" />
       <module name="secondProject_main" target="1.8" />
       <module name="secondProject_test" target="1.8" />
     </bytecodeTargetLevel>

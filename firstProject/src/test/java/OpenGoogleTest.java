@@ -14,16 +14,18 @@ public class OpenGoogleTest
     {
         driver = new ChromeDriver();
     }
-@Test
-public void siteOpeningTest(){
+    @Test
+    public void siteOpeningTest()
+    {
     //driver.get("https://www.odnoklassniki.ru");
     driver.get("https://www.google.com");
-}
+    }
 
-@AfterMethod
-public void tearDown(){
+    @AfterMethod
+    public void tearDown()
+    {
     driver.quit();
-}
+    }
 
 
 }

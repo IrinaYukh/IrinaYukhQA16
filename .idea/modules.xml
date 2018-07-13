@@ -11,6 +11,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/homeOwnTests.iml" filepath="$PROJECT_DIR$/.idea/modules/homeOwnTests.iml" group="homeOwnTests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/homeOwnTests/homeOwnTests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/homeOwnTests/homeOwnTests_main.iml" group="homeOwnTests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/homeOwnTests/homeOwnTests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/homeOwnTests/homeOwnTests_test.iml" group="homeOwnTests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recorder.iml" filepath="$PROJECT_DIR$/.idea/modules/recorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recorder_main.iml" filepath="$PROJECT_DIR$/.idea/modules/recorder_main.iml" group="recorder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recorder_test.iml" filepath="$PROJECT_DIR$/.idea/modules/recorder_test.iml" group="recorder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/second-web-selenium-by-recorder.iml" filepath="$PROJECT_DIR$/.idea/modules/second-web-selenium-by-recorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/second-web-selenium-by-recorder_main.iml" filepath="$PROJECT_DIR$/.idea/modules/second-web-selenium-by-recorder_main.iml" group="second-web-selenium-by-recorder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/second-web-selenium-by-recorder_test.iml" filepath="$PROJECT_DIR$/.idea/modules/second-web-selenium-by-recorder_test.iml" group="second-web-selenium-by-recorder" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/secondProject.iml" filepath="$PROJECT_DIR$/.idea/modules/secondProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/secondProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/secondProject_main.iml" group="secondProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/secondProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/secondProject_test.iml" group="secondProject" />

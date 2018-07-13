@@ -25,6 +25,26 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/recorder" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/recorder" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/second-web-selenium-by-recorder" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/second-web-selenium-by-recorder" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/secondProject" />
         <option name="modules">
           <set>
