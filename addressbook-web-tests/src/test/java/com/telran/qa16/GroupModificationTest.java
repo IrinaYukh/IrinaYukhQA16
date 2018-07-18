@@ -27,7 +27,7 @@ public class GroupModificationTest
         clickGroupsButton();
         selectEditGroupCheckBox();
         clickEditGroupButton();
-        editGroup("modifyedName","modifyedLogo","modifyedComment");
+        editGroup("name","logo","comment");
         clickUpdateButton();
         returnToCreateGroupPage();
     }
@@ -69,15 +69,15 @@ public class GroupModificationTest
     {
         wd.findElement(By.name("group_name")).click();
         wd.findElement(By.name("group_name")).clear();
-        wd.findElement(By.name("group_name")).sendKeys("name");
+        wd.findElement(By.name("group_name")).sendKeys("modifyedName");
 
         wd.findElement(By.name("group_header")).click();
         wd.findElement(By.name("group_header")).clear();
-        wd.findElement(By.name("group_header")).sendKeys("logo");
+        wd.findElement(By.name("group_header")).sendKeys("modifyedLogo");
 
         wd.findElement(By.name("group_footer")).click();
         wd.findElement(By.name("group_footer")).clear();
-        wd.findElement(By.name("group_footer")).sendKeys("comment");
+        wd.findElement(By.name("group_footer")).sendKeys("modifyedComment");
 
     }
     private void clickUpdateButton()

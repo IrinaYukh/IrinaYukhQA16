@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c75ae54-4e3d-4240-ba21-4637238bf0b4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupModificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupModificationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/firstProject/.gradle/" />
     <ignored path="$PROJECT_DIR$/firstProject/build/" />
@@ -83,8 +83,8 @@
       <file leaf-file-name="GroupCreationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+            <state relative-caret-position="307">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1460#1461#0" expanded="true" />
@@ -99,13 +99,12 @@
       <file leaf-file-name="GroupModificationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupModificationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="562">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#login#0;class#GroupModificationTest#0" />
                 <element signature="method#clickGroupsButton#0;class#GroupModificationTest#0" />
-                <element signature="method#ediGroup#0;class#GroupModificationTest#0" />
                 <element signature="method#tearDown#0;class#GroupModificationTest#0" />
                 <element signature="method#isElementPresent#0;class#GroupModificationTest#0" />
               </folding>
@@ -116,12 +115,14 @@
       <file leaf-file-name="GroupDeletionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupDeletionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
+            <state relative-caret-position="391">
+              <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#login#0;class#GroupDeletionTest#0" />
                 <element signature="method#clickGroupsButton#0;class#GroupDeletionTest#0" />
+                <element signature="method#tearDown#0;class#GroupDeletionTest#0" />
+                <element signature="method#isElementPresent#0;class#GroupDeletionTest#0" />
               </folding>
             </state>
           </provider>
@@ -2047,8 +2048,8 @@
         <option value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupCreationTest.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/GroupModificationTest.java" />
-        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupModificationTest.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupDeletionTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupModificationTest.java" />
       </list>
     </option>
   </component>
@@ -2325,9 +2326,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.GroupDeletionTest" />
-        <item itemvalue="TestNG.GroupCreationTest.groupCreationTest" />
         <item itemvalue="TestNG.GroupModificationTest" />
         <item itemvalue="TestNG.GroupCreationTest" />
+        <item itemvalue="TestNG.GroupCreationTest.groupCreationTest" />
         <item itemvalue="TestNG.EBay" />
       </list>
     </recent_temporary>
@@ -2346,27 +2347,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EBay_HW - 2018.07.13 at 15h 21m 24s.xml">
-      <configuration name="EBay_HW" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EBay - 2018.07.13 at 15h 28m 19s.xml">
-      <configuration name="EBay" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EBay - 2018.07.13 at 15h 29m 41s.xml">
-      <configuration name="EBay" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EBay - 2018.07.13 at 15h 56m 55s.xml">
-      <configuration name="EBay" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EBay - 2018.07.14 at 11h 38m 14s.xml">
-      <configuration name="EBay" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTest - 2018.07.18 at 17h 56m 19s.xml">
-      <configuration name="GroupCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTest - 2018.07.18 at 17h 58m 33s.xml">
-      <configuration name="GroupCreationTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GroupCreationTest_groupCreationTest - 2018.07.18 at 17h 59m 47s.xml">
       <configuration name="GroupCreationTest.groupCreationTest" configurationId="TestNG" />
     </history-entry>
@@ -2375,6 +2355,27 @@
     </history-entry>
     <history-entry file="GroupModificationTest - 2018.07.18 at 19h 29m 55s.xml">
       <configuration name="GroupModificationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTest_groupCreationTest - 2018.07.18 at 19h 40m 25s.xml">
+      <configuration name="GroupCreationTest.groupCreationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTest - 2018.07.18 at 19h 40m 44s.xml">
+      <configuration name="GroupDeletionTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTest - 2018.07.18 at 19h 47m 04s.xml">
+      <configuration name="GroupDeletionTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTest - 2018.07.18 at 19h 47m 33s.xml">
+      <configuration name="GroupCreationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupModificationTest - 2018.07.18 at 19h 48m 02s.xml">
+      <configuration name="GroupModificationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupModificationTest - 2018.07.18 at 19h 49m 49s.xml">
+      <configuration name="GroupModificationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTest - 2018.07.18 at 19h 50m 12s.xml">
+      <configuration name="GroupDeletionTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -2390,11 +2391,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291592" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.010733453" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18783543" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.28016195" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.28016195" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.09660108" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.02834008" />
@@ -2453,7 +2454,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -2726,8 +2727,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+        <state relative-caret-position="307">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1460#1461#0" expanded="true" />
@@ -2740,13 +2741,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupModificationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="562">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#login#0;class#GroupModificationTest#0" />
             <element signature="method#clickGroupsButton#0;class#GroupModificationTest#0" />
-            <element signature="method#ediGroup#0;class#GroupModificationTest#0" />
             <element signature="method#tearDown#0;class#GroupModificationTest#0" />
             <element signature="method#isElementPresent#0;class#GroupModificationTest#0" />
           </folding>
@@ -2755,12 +2755,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupDeletionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
+        <state relative-caret-position="391">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#login#0;class#GroupDeletionTest#0" />
             <element signature="method#clickGroupsButton#0;class#GroupDeletionTest#0" />
+            <element signature="method#tearDown#0;class#GroupDeletionTest#0" />
+            <element signature="method#isElementPresent#0;class#GroupDeletionTest#0" />
           </folding>
         </state>
       </provider>
