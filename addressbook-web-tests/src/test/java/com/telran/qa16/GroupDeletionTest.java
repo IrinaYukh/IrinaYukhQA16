@@ -4,20 +4,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import java.util.concurrent.TimeUnit;
 
-public class GroupCreationTest
-{
+public class GroupDeletionTest {
     WebDriver wd;  // driver
 
     @BeforeMethod
-    public void setUp()
-    {
+    public void setUp() {
         wd = new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         wd.get("http://localhost/addressbook/");
@@ -25,17 +21,15 @@ public class GroupCreationTest
     }
 
     @Test
-    public void groupCreationTest()
-    {
+    public void groupDeletionTest() {
         clickGroupsButton();
-        clickCreateNewGroupButton();
-        createGroup("name","logo","comment");
-        returnToCreatGroupPage();
-
+        selectDeletedGroupCheckBox();
+        clickDeleteGroupsButton();
+        returnToGroupPage();
     }
 
-    private void login(String user, String password)
-    {
+
+    private void login(String user, String password) {
         wd.findElement(By.name("user")).click();
         wd.findElement(By.name("user")).clear();
         wd.findElement(By.name("user")).sendKeys(user);
@@ -47,40 +41,24 @@ public class GroupCreationTest
         //wd.findElement(By.xpath("//*[@id=\'LoginForm\']/input[3]")).click();
         wd.findElement(By.xpath("//*[@type='submit']")).click();
     }
-    private void clickGroupsButton()
-    {
+
+    private void clickGroupsButton() {
         wd.findElement(By.xpath("//*[@id=\"nav\"]/ul/li[3]/a")).click();
         //wd.findElement(By.xpath("//*[@href='group.php']")).click();
     }
 
-    private void clickCreateNewGroupButton()
-    {
-        wd.findElement(By.xpath("//*[@id=\"content\"]/form/input[4]")).click();
+    private void selectDeletedGroupCheckBox() {
+        wd.findElement(By.name("selected[]")).click();
     }
 
-    private void createGroup(String name, String logo, String comment)
-    {
-        wd.findElement(By.name("group_name")).click();
-        wd.findElement(By.name("group_name")).clear();
-        wd.findElement(By.name("group_name")).sendKeys("name");
-
-        wd.findElement(By.name("group_header")).click();
-        wd.findElement(By.name("group_header")).clear();
-        wd.findElement(By.name("group_header")).sendKeys("logo");
-
-        wd.findElement(By.name("group_footer")).click();
-        wd.findElement(By.name("group_footer")).clear();
-        wd.findElement(By.name("group_footer")).sendKeys("comment");
-
-        wd.findElement(By.xpath("//*[@id=\"content\"]/form/input[2]")).click();
-
+    private void clickDeleteGroupsButton() {
+        wd.findElement(By.name("delete")).click();
     }
 
-    public void returnToCreatGroupPage()
+    public void returnToGroupPage()
     {
         wd.findElement(By.xpath("//*[@id=\"content\"]/div/i/a")).click();
     }
-
 
     @AfterMethod(alwaysRun = true)
     public void tearDown()
@@ -111,3 +89,4 @@ public class GroupCreationTest
         }
     }
 }
+

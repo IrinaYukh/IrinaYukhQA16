@@ -4,14 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import java.util.concurrent.TimeUnit;
 
-public class GroupCreationTest
+public class GroupModificationTest
 {
     WebDriver wd;  // driver
 
@@ -23,16 +21,19 @@ public class GroupCreationTest
         wd.get("http://localhost/addressbook/");
         login("admin", "secret");
     }
-
     @Test
-    public void groupCreationTest()
+    public void groupModificationTest()
     {
         clickGroupsButton();
-        clickCreateNewGroupButton();
-        createGroup("name","logo","comment");
-        returnToCreatGroupPage();
-
+        selectEditGroupCheckBox();
+        clickEditGroupButton();
+        editGroup("modifyedName","modifyedLogo","modifyedComment");
+        clickUpdateButton();
+        returnToCreateGroupPage();
     }
+
+
+
 
     private void login(String user, String password)
     {
@@ -47,18 +48,24 @@ public class GroupCreationTest
         //wd.findElement(By.xpath("//*[@id=\'LoginForm\']/input[3]")).click();
         wd.findElement(By.xpath("//*[@type='submit']")).click();
     }
+
     private void clickGroupsButton()
     {
         wd.findElement(By.xpath("//*[@id=\"nav\"]/ul/li[3]/a")).click();
         //wd.findElement(By.xpath("//*[@href='group.php']")).click();
     }
 
-    private void clickCreateNewGroupButton()
+    private void selectEditGroupCheckBox()
     {
-        wd.findElement(By.xpath("//*[@id=\"content\"]/form/input[4]")).click();
+        wd.findElement(By.name("selected[]")).click();
     }
 
-    private void createGroup(String name, String logo, String comment)
+    private void clickEditGroupButton()
+    {
+        wd.findElement(By.name("edit")).click();
+    }
+
+    private void editGroup(String name, String logo, String comment)
     {
         wd.findElement(By.name("group_name")).click();
         wd.findElement(By.name("group_name")).clear();
@@ -72,15 +79,16 @@ public class GroupCreationTest
         wd.findElement(By.name("group_footer")).clear();
         wd.findElement(By.name("group_footer")).sendKeys("comment");
 
-        wd.findElement(By.xpath("//*[@id=\"content\"]/form/input[2]")).click();
-
+    }
+    private void clickUpdateButton()
+    {
+        wd.findElement(By.name("update")).click();
     }
 
-    public void returnToCreatGroupPage()
+    public void returnToCreateGroupPage()
     {
         wd.findElement(By.xpath("//*[@id=\"content\"]/div/i/a")).click();
     }
-
 
     @AfterMethod(alwaysRun = true)
     public void tearDown()
