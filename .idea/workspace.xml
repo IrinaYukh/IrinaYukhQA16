@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c75ae54-4e3d-4240-ba21-4637238bf0b4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactCreationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupDeletionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupModificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupModificationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/firstProject/.gradle/" />
@@ -72,42 +74,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/build.gradle">
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupCreationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupCreationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="680">
+              <caret line="180" selection-start-line="180" selection-end-line="180" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1460#1461#0" expanded="true" />
-                <element signature="e#1554#1555#0" expanded="true" />
-                <element signature="e#2477#2478#0" expanded="true" />
-                <element signature="e#2557#2558#0" expanded="true" />
+                <element signature="method#login#2;class#TestBase#0" />
+                <element signature="method#goToGroupsPage#0;class#TestBase#0" />
+                <element signature="e#2329#2330#0" expanded="true" />
+                <element signature="e#2384#2385#0" expanded="true" />
+                <element signature="e#1384#1385#0" expanded="true" />
+                <element signature="e#1445#1446#0" expanded="true" />
+                <element signature="method#createGroup#0;class#TestBase#0" />
+                <element signature="method#enterContactInfo#0;class#TestBase#0" />
+                <element signature="method#clickEditContactIcon#0;class#TestBase#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactCreationTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContactCreationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            <state relative-caret-position="476">
+              <caret line="28" column="113" selection-start-line="28" selection-start-column="113" selection-end-line="28" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactDeletionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactDeletionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#login#0;class#ContactCreationTest#0" />
-                <element signature="method#addNewEntry#0;class#ContactCreationTest#0" />
-                <element signature="e#2674#2675#0" expanded="true" />
-                <element signature="e#2707#2708#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactModificationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactModificationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2033,10 +2048,14 @@
         <option value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/GroupModificationTest.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupDeletionTest.java" />
-        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupModificationTest.java" />
-        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactDeletionTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupData.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactData.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupCreationTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupModificationTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactModificationTest.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactCreationTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/TestBase.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactDeletionTest.java" />
       </list>
     </option>
   </component>
@@ -2106,6 +2125,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.telran.qa16" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\MichaelY\Documents\GitHub\IrinaYukhQA16" />
     </key>
@@ -2122,7 +2144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContactCreationTest">
+  <component name="RunManager" selected="TestNG.ContactDeletionTest.deleteContactTest3">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -2171,7 +2193,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GroupCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactCreationTest.contactCreationTest1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests_test" />
       <extension name="coverage">
         <pattern>
@@ -2183,37 +2205,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.telran.qa16" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa16.GroupCreationTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="GroupCreationTest.groupCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.qa16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.telran.qa16" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa16.GroupCreationTest" />
-      <option name="METHOD_NAME" value="groupCreationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa16.ContactCreationTest" />
+      <option name="METHOD_NAME" value="contactCreationTest1" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -2229,7 +2222,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GroupDeletionTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactDeletionTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests_test" />
       <extension name="coverage">
         <pattern>
@@ -2241,7 +2234,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.telran.qa16" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa16.GroupDeletionTest" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa16.ContactDeletionTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -2258,7 +2251,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GroupModificationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactDeletionTest.deleteContactTest1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests_test" />
       <extension name="coverage">
         <pattern>
@@ -2270,10 +2263,39 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.telran.qa16" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa16.GroupModificationTest" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa16.ContactDeletionTest" />
+      <option name="METHOD_NAME" value="deleteContactTest1" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ContactDeletionTest.deleteContactTest3" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.qa16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.telran.qa16" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa16.ContactDeletionTest" />
+      <option name="METHOD_NAME" value="deleteContactTest3" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -2310,19 +2332,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.GroupCreationTest" />
-      <item itemvalue="TestNG.GroupCreationTest.groupCreationTest" />
-      <item itemvalue="TestNG.GroupModificationTest" />
-      <item itemvalue="TestNG.GroupDeletionTest" />
       <item itemvalue="TestNG.ContactCreationTest" />
+      <item itemvalue="TestNG.ContactDeletionTest" />
+      <item itemvalue="TestNG.ContactCreationTest.contactCreationTest1" />
+      <item itemvalue="TestNG.ContactDeletionTest.deleteContactTest1" />
+      <item itemvalue="TestNG.ContactDeletionTest.deleteContactTest3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactDeletionTest.deleteContactTest3" />
+        <item itemvalue="TestNG.ContactDeletionTest.deleteContactTest1" />
+        <item itemvalue="TestNG.ContactCreationTest.contactCreationTest1" />
         <item itemvalue="TestNG.ContactCreationTest" />
-        <item itemvalue="TestNG.GroupCreationTest" />
-        <item itemvalue="TestNG.GroupDeletionTest" />
-        <item itemvalue="TestNG.GroupModificationTest" />
-        <item itemvalue="TestNG.GroupCreationTest.groupCreationTest" />
+        <item itemvalue="TestNG.ContactDeletionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -2340,62 +2362,63 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GroupCreationTest - 2018.07.18 at 19h 47m 33s.xml">
-      <configuration name="GroupCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupModificationTest - 2018.07.18 at 19h 48m 02s.xml">
-      <configuration name="GroupModificationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupModificationTest - 2018.07.18 at 19h 49m 49s.xml">
-      <configuration name="GroupModificationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupDeletionTest - 2018.07.18 at 19h 50m 12s.xml">
-      <configuration name="GroupDeletionTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTest_groupCreationTest - 2018.07.18 at 20h 40m 35s.xml">
-      <configuration name="GroupCreationTest.groupCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupModificationTest - 2018.07.18 at 20h 41m 07s.xml">
-      <configuration name="GroupModificationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupDeletionTest - 2018.07.18 at 20h 41m 24s.xml">
-      <configuration name="GroupDeletionTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactCreationTest - 2018.07.18 at 21h 18m 11s.xml">
+    <history-entry file="ContactCreationTest - 2018.07.20 at 17h 17m 13s.xml">
       <configuration name="ContactCreationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTest - 2018.07.18 at 21h 34m 32s.xml">
-      <configuration name="GroupCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactCreationTest - 2018.07.18 at 21h 37m 20s.xml">
+    <history-entry file="ContactCreationTest - 2018.07.20 at 17h 18m 07s.xml">
       <configuration name="ContactCreationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactDeletionTest - 2018.07.20 at 17h 47m 15s.xml">
+      <configuration name="ContactDeletionTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactDeletionTest - 2018.07.20 at 17h 48m 32s.xml">
+      <configuration name="ContactDeletionTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTest - 2018.07.20 at 17h 52m 25s.xml">
+      <configuration name="ContactCreationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTest - 2018.07.20 at 17h 52m 38s.xml">
+      <configuration name="ContactCreationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTest_contactCreationTest1 - 2018.07.20 at 17h 53m 02s.xml">
+      <configuration name="ContactCreationTest.contactCreationTest1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactDeletionTest_deleteContactTest1 - 2018.07.20 at 17h 53m 43s.xml">
+      <configuration name="ContactDeletionTest.deleteContactTest1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactDeletionTest_deleteContactTest3 - 2018.07.20 at 17h 54m 23s.xml">
+      <configuration name="ContactDeletionTest.deleteContactTest3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactDeletionTest_deleteContactTest3 - 2018.07.20 at 17h 55m 20s.xml">
+      <configuration name="ContactDeletionTest.deleteContactTest3" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3291536" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291592" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29159212" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3291592" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.09660108" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.28016195" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.09660108" />
-      <window_info id="Learn" order="2" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.02834008" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.24939272" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.09660108" />
+      <window_info id="Learn" order="5" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.02834008" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.22672065" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39355993" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2410,10 +2433,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Gradle" order="5" weight="0.02834008" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18783543" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32737032" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.28016195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.22672065" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -2423,17 +2446,17 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39355993" />
       <window_info id="Learn" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3291592" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.09660108" />
-      <window_info id="Capture Tool" order="6" />
+      <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3291536" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2446,7 +2469,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -2689,13 +2712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/firstProject/src/test/java/OpenGoogleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -2717,71 +2733,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupDeletionTest.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#login#0;class#GroupDeletionTest#0" />
-            <element signature="method#clickGroupsButton#0;class#GroupDeletionTest#0" />
-            <element signature="method#tearDown#0;class#GroupDeletionTest#0" />
-            <element signature="method#isElementPresent#0;class#GroupDeletionTest#0" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupModificationTest.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="75" column="63" lean-forward="true" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#login#0;class#GroupModificationTest#0" />
-            <element signature="method#clickGroupsButton#0;class#GroupModificationTest#0" />
-            <element signature="method#tearDown#0;class#GroupModificationTest#0" />
-            <element signature="method#isElementPresent#0;class#GroupModificationTest#0" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactDeletionTest.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#login#0;class#ContactDeletionTest#0" />
-            <element signature="e#2669#2670#0" expanded="true" />
-            <element signature="e#2694#2695#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="629">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="113">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupDeletionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/GroupModificationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactModificationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
-            <element signature="e#2557#2558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#login#2;class#TestBase#0" />
+            <element signature="method#goToGroupsPage#0;class#TestBase#0" />
+            <element signature="e#2329#2330#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="method#createGroup#0;class#TestBase#0" />
+            <element signature="method#enterContactInfo#0;class#TestBase#0" />
+            <element signature="method#clickEditContactIcon#0;class#TestBase#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="476">
+          <caret line="28" column="113" selection-start-line="28" selection-start-column="113" selection-end-line="28" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/com/telran/qa16/ContactDeletionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#login#0;class#ContactCreationTest#0" />
-            <element signature="method#addNewEntry#0;class#ContactCreationTest#0" />
-            <element signature="e#2674#2675#0" expanded="true" />
-            <element signature="e#2707#2708#0" expanded="true" />
           </folding>
         </state>
       </provider>
