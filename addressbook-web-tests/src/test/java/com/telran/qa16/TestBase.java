@@ -1,11 +1,11 @@
 package com.telran.qa16;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+
 import java.util.concurrent.TimeUnit;
 
 public class TestBase
@@ -125,9 +125,9 @@ public class TestBase
         wd.findElement(By.name("address")).clear();
         wd.findElement(By.name("address")).sendKeys(contactData.getAddress());
 
-        wd.findElement(By.xpath("//*[@id=\"content\"]/form/input[10]")).click();
-        wd.findElement(By.xpath("//*[@id=\"content\"]/form/input[10]")).clear();
-        wd.findElement(By.xpath("//*[@id=\"content\"]/form/input[10]")).sendKeys(contactData.getPhone());
+        wd.findElement(By.name("home")).click();
+        wd.findElement(By.name("home")).clear();
+        wd.findElement(By.name("home")).sendKeys(contactData.getPhone());
 
         wd.findElement(By.name("email")).click();
         wd.findElement(By.name("email")).clear();
@@ -154,7 +154,7 @@ public class TestBase
     }
     public void submitContactModification()
     {
-        wd.findElement(By.name("submit")).click();
+        wd.findElement(By.name("update")).click();
     }
 
     // Delete Contact
@@ -188,5 +188,13 @@ public class TestBase
     }
 
 
+    public int getContactsSize()
+    {
+        return wd.findElements(By.name("selected[]")).size();
+    }
 
+    public int getGroupsSize()
+    {
+        return wd.findElements(By.name("selected[]")).size();
+    }
 }
