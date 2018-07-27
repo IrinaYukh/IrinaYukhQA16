@@ -8,6 +8,11 @@ public class ContactModificationTest extends TestBase
     @Test
     public void modifyContactTest()
     {
+        // Method for checking if some elements present into the table of Contacts
+        if (!isContactPresent())
+        {
+            createContact();
+        }
         int before = getContactsSize();
         selectContact();
         clickEditContactIcon();
@@ -21,6 +26,10 @@ public class ContactModificationTest extends TestBase
     @Test
     public void modifyContactTest1()
     {
+        if (!isContactPresent())
+        {
+            createContact();
+        }
         int before = getContactsSize();
         selectContact();
         clickEditContactIcon();
@@ -31,5 +40,22 @@ public class ContactModificationTest extends TestBase
         Assert.assertEquals(after, before);
     }
 
+    @Test
+    public void modifyContactUsingSelectByIndexTest()
+    {
+        if (!isContactPresent())
+        {
+            createContact();
+        }
+        int before = getContactsSize();
+        selectContactByIndex(before-2);
+        before = getContactsSize();
+        clickEditContactIcon();
+        fillContactForm(new ContactData().setFirstname("Maya").setLastname("Smith").setAddress("Raanana,56 Snow Street").setEmail("smithM@yahoo.com").setPhone("03-621-9001"));
+        submitContactModification();
+        int after = getContactsSize();
+
+        Assert.assertEquals(after, before);
+    }
 
 }

@@ -12,7 +12,10 @@ public class GroupDeletionTest extends TestBase
     public void groupDeletionTest()
     {
         goToGroupsPage();
-
+        if (!isGroupPresent())
+        {
+            createGroup();
+        }
         int before = getGroupsSize();
         selectGroupCheckBox();
         initGroupDeletion();
@@ -21,6 +24,26 @@ public class GroupDeletionTest extends TestBase
 
         Assert.assertEquals(after, before-1);
     }
+
+    @Test
+    public void groupDeletionTestByIndex()
+    {
+        goToGroupsPage();
+        if (!isGroupPresent())
+        {
+            createGroup();
+        }
+        int before = getGroupsSize();
+        // select last element of table for deletion
+        selectGroupByIndex(before-1);
+        initGroupDeletion();
+        returnToGroupPage();
+        int after = getGroupsSize();
+
+        Assert.assertEquals(after, before-1);
+    }
+
+
 
 
 }
