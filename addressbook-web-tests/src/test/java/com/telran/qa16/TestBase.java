@@ -9,15 +9,13 @@ public class TestBase
     public static ApplicationManager app = new ApplicationManager();
 
     @BeforeSuite
-    public void setUp()
-    {
+    public void setUp(){
         app.start();
     }
 
 
     @AfterSuite(alwaysRun = true)
-    public void tearDown()
-    {
+    public void tearDown(){
         app.stop();
     }
 

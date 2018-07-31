@@ -5,24 +5,18 @@ import org.openqa.selenium.WebDriver;
 
 public class GroupHelper extends HelperBase
 {
+    // constructor
     public GroupHelper(WebDriver wd)
     {
         super(wd);
     }
 
 
-    public void type(By locator, String text) {
-        click(locator);
-        wd.findElement(locator).clear();
-        wd.findElement(locator).sendKeys(text);
-    }
-
     // create Group
 
     public void initGroupCreation() {
 
         click(By.xpath("//*[@name='new']"));
-        //wd.findElement(By.name("new")).click();
     }
 
     public void submitGroupCreation() {
@@ -33,8 +27,6 @@ public class GroupHelper extends HelperBase
         click(By.xpath("//a[contains(text(),'group page')]"));
     }
 
-
-
     public void createGroup() {
         initGroupCreation();
         fillGroupForm(new GroupData().setName("nameFromTestBase")
@@ -44,15 +36,11 @@ public class GroupHelper extends HelperBase
         returnToGroupPage();
     }
 
-
     // modify Group
 
     public void initGroupModification() {
         click(By.name("edit"));
     }
-
-
-
 
     public void selectGroupCheckBox() {
         click(By.name("selected[]"));
@@ -74,6 +62,7 @@ public class GroupHelper extends HelperBase
         click(By.name("update"));
     }
 
+
     // delete Group
 
     public void initGroupDeletion() {
@@ -90,5 +79,6 @@ public class GroupHelper extends HelperBase
     {
         return isElementPresent(By.name("selected[]"));
     }
+
 
 }
