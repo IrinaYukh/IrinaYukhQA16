@@ -10,20 +10,19 @@ public class GroupModificationTest extends TestBase
     @Test
     public void groupModificationTest()
     {
-        goToGroupsPage();
+        app.goToGroupsPage();
 
-        if (!isGroupPresent())
+        if (!app.getGroupHelper().isGroupPresent())
         {
-            createGroup();
+            app.getGroupHelper().createGroup();
         }
-
-        int before = getGroupsSize();
-        selectGroupCheckBox();
-        initGroupModification();
-        fillGroupForm(new GroupData().setName("modifyedName").setLogo("modifyedLogo").setComment("modifyedComment"));
-        submitGroupModification();
-        returnToGroupPage();
-        int after = getGroupsSize();
+        int before = app.getGroupHelper().getGroupsSize();
+        app.getGroupHelper().selectGroupCheckBox();
+        app.getGroupHelper().initGroupModification();
+        app.getGroupHelper().fillGroupForm(new GroupData().setName("modifyedName").setLogo("modifyedLogo").setComment("modifyedComment"));
+        app.getGroupHelper().submitGroupModification();
+        app.getGroupHelper().returnToGroupPage();
+        int after = app.getGroupHelper().getGroupsSize();
 
         Assert.assertEquals(after, before);
     }
@@ -33,22 +32,22 @@ public class GroupModificationTest extends TestBase
     {
         // select and modify last element in the table
 
-        goToGroupsPage();
+        app.goToGroupsPage();
 
-        if (!isGroupPresent())
+        if (!app.getGroupHelper().isGroupPresent())
         {
-            createGroup();
+            app.getGroupHelper().createGroup();
         }
 
-        int before = getGroupsSize();
+        int before = app.getGroupHelper().getGroupsSize();
 
         // take the last element (size of table - value of int before)
-        selectGroupByIndex(before-1);
-        initGroupModification();
-        fillGroupForm(new GroupData().setName("modifyedName2").setLogo("modifyedLogo2").setComment("modifyedComment2"));
-        submitGroupModification();
-        returnToGroupPage();
-        int after = getGroupsSize();
+        app.getGroupHelper().selectGroupByIndex(before-1);
+        app.getGroupHelper().initGroupModification();
+        app.getGroupHelper().fillGroupForm(new GroupData().setName("modifyedName2").setLogo("modifyedLogo2").setComment("modifyedComment2"));
+        app.getGroupHelper().submitGroupModification();
+        app.getGroupHelper().returnToGroupPage();
+        int after = app.getGroupHelper().getGroupsSize();
 
         Assert.assertEquals(after, before);
     }

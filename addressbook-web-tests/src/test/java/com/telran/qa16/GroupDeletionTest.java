@@ -11,16 +11,16 @@ public class GroupDeletionTest extends TestBase
     @Test
     public void groupDeletionTest()
     {
-        goToGroupsPage();
-        if (!isGroupPresent())
+        app.goToGroupsPage();
+        if (!app.getGroupHelper().isGroupPresent())
         {
-            createGroup();
+            app.getGroupHelper().createGroup();
         }
-        int before = getGroupsSize();
-        selectGroupCheckBox();
-        initGroupDeletion();
-        returnToGroupPage();
-        int after = getGroupsSize();
+        int before = app.getGroupHelper().getGroupsSize();
+        app.getGroupHelper().selectGroupCheckBox();
+        app.getGroupHelper().initGroupDeletion();
+        app.getGroupHelper().returnToGroupPage();
+        int after = app.getGroupHelper().getGroupsSize();
 
         Assert.assertEquals(after, before-1);
     }
@@ -28,17 +28,20 @@ public class GroupDeletionTest extends TestBase
     @Test
     public void groupDeletionTestByIndex()
     {
-        goToGroupsPage();
-        if (!isGroupPresent())
+        app.goToGroupsPage();
+
+        if (!app.getGroupHelper().isGroupPresent())
         {
-            createGroup();
+            app.getGroupHelper().createGroup();
         }
-        int before = getGroupsSize();
+
+        int before = app.getGroupHelper().getGroupsSize();
+
         // select last element of table for deletion
-        selectGroupByIndex(before-1);
-        initGroupDeletion();
-        returnToGroupPage();
-        int after = getGroupsSize();
+        app.getGroupHelper().selectGroupByIndex(before-1);
+        app.getGroupHelper().initGroupDeletion();
+        app.getGroupHelper().returnToGroupPage();
+        int after = app.getGroupHelper().getGroupsSize();
 
         Assert.assertEquals(after, before-1);
     }

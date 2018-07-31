@@ -10,14 +10,14 @@ public class GroupCreationTest extends TestBase
     @Test
     public void groupCreationTest()
     {
-        goToGroupsPage();
+        app.goToGroupsPage();
 
-        int before = getGroupsSize();
-        initGroupCreation();
-        fillGroupForm(new GroupData().setName("name").setLogo("logo").setComment("comment"));
-        submitGroupCreation();
-        returnToGroupPage();
-        int after = getGroupsSize();
+        int before = app.getGroupHelper().getGroupsSize();
+        app.getGroupHelper().initGroupCreation();
+        app.getGroupHelper().fillGroupForm(new GroupData().setName("name").setLogo("logo").setComment("comment"));
+        app.getGroupHelper().submitGroupCreation();
+        app.getGroupHelper().returnToGroupPage();
+        int after = app.getGroupHelper().getGroupsSize();
 
         Assert.assertEquals(after, before + 1);
 
@@ -26,14 +26,14 @@ public class GroupCreationTest extends TestBase
     @Test
     public void groupCreationTestWithoutName()
     {
-        goToGroupsPage();
+        app.goToGroupsPage();
 
-        int before = getGroupsSize();
-        initGroupCreation();
-        fillGroupForm(new GroupData().setName("").setLogo("").setComment(""));
-        submitGroupCreation();
-        returnToGroupPage();
-        int after = getGroupsSize();
+        int before = app.getGroupHelper().getGroupsSize();
+        app.getGroupHelper().initGroupCreation();
+        app.getGroupHelper().fillGroupForm(new GroupData().setName("").setLogo("").setComment(""));
+        app.getGroupHelper().submitGroupCreation();
+        app.getGroupHelper().returnToGroupPage();
+        int after = app.getGroupHelper().getGroupsSize();
 
         Assert.assertEquals(after, before+1);
 
@@ -42,14 +42,14 @@ public class GroupCreationTest extends TestBase
     @Test
     public void groupCreationTestWithLongName()
     {
-        goToGroupsPage();
+        app.goToGroupsPage();
 
-        int before = getGroupsSize();
-        initGroupCreation();
-        fillGroupForm(new GroupData().setName("nameJJJJOOOOHHHHNNNN").setLogo("logo").setComment("comment25615"));
-        submitGroupCreation();
-        returnToGroupPage();
-        int after = getGroupsSize();
+        int before = app.getGroupHelper().getGroupsSize();
+        app.getGroupHelper().initGroupCreation();
+        app.getGroupHelper().fillGroupForm(new GroupData().setName("nameJJJJOOOOHHHHNNNN").setLogo("logo").setComment("comment25615"));
+        app.getGroupHelper().submitGroupCreation();
+        app.getGroupHelper().returnToGroupPage();
+        int after = app.getGroupHelper().getGroupsSize();
 
         Assert.assertEquals(after, before+1);
 

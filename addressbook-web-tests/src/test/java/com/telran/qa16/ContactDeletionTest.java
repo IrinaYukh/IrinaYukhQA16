@@ -9,18 +9,18 @@ public class ContactDeletionTest extends TestBase
     public void deleteContactTest1()
     {
         // Method for checking if some elements present into the table of Contacts
-        if (!isContactPresent())
+        if (!app.isContactPresent())
         {
-            createContact();
+            app.createContact();
         }
-        int before = getContactsSize();
+        int before = app.getContactsSize();
 
-        selectContact();
-        deleteContact();
+        app.selectContact();
+        app.deleteContact();
         // Confirm alert message during deletion of contact
-        confirmAlert();
+        app.confirmAlert();
 
-        int after = getContactsSize();
+        int after = app.getContactsSize();
 
         Assert.assertEquals(after, before - 1);
     }
@@ -28,17 +28,17 @@ public class ContactDeletionTest extends TestBase
     @Test
     public void deleteContactUsingSelectByIndexTest()
     {
-        if (!isContactPresent())
+        if (!app.isContactPresent())
         {
-            createContact();
+            app.createContact();
         }
-        int before = getContactsSize();
+        int before = app.getContactsSize();
 
-        selectContactByIndex(before-2);
-        before = getContactsSize();
-        clickEditContactIcon();
-        deleteContactByEdit();
-        int after = getContactsSize();
+        app.selectContactByIndex(before-2);
+        before = app.getContactsSize();
+        app.clickEditContactIcon();
+        app.deleteContactByEdit();
+        int after = app.getContactsSize();
 
         Assert.assertEquals(after, before-1);
 
@@ -47,15 +47,15 @@ public class ContactDeletionTest extends TestBase
     @Test
     public void deleteContactTestByEditIcon()
     {
-        if (!isContactPresent())
+        if (!app.isContactPresent())
         {
-            createContact();
+            app.createContact();
         }
-        int before = getContactsSize();
-        selectContact();
-        clickEditContactIcon();
-        deleteContactByEdit();
-        int after = getContactsSize();
+        int before = app.getContactsSize();
+        app.selectContact();
+        app.clickEditContactIcon();
+        app.deleteContactByEdit();
+        int after = app.getContactsSize();
 
         Assert.assertEquals(after, before-1);
 
@@ -64,15 +64,15 @@ public class ContactDeletionTest extends TestBase
     @Test()
     public void deleteAllContactsTest3()
     {
-        if (!isContactPresent())
+        if (!app.isContactPresent())
         {
-            createContact();
+            app.createContact();
         }
-        int before = getContactsSize();
-        selectAllContacts();
-        deleteContact();
-        confirmAlert();
-        int after = getContactsSize();
+        int before = app.getContactsSize();
+        app.selectAllContacts();
+        app.deleteContact();
+        app.confirmAlert();
+        int after = app.getContactsSize();
 
         Assert.assertEquals(after, before - before);
 
