@@ -32,7 +32,6 @@ public class ApplicationManager
 
 
     public void goToGroupsPage() {
-        //wd.findElement(By.cssSelector("[href='group.php']")).click();
         wd.findElement(By.xpath("//*[@href='group.php']")).click();
     }
 

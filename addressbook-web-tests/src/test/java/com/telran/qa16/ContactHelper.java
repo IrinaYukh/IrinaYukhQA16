@@ -11,7 +11,7 @@ public class ContactHelper extends HelperBase
     }
 
     public void goToAddNewContact(){
-        click(By.xpath("//a[contains(text(),'ADD_NEW')]"));
+        click(By.xpath("//a[@href='edit.php']"));
     }
 
     public void selectContact() {
@@ -79,7 +79,7 @@ public class ContactHelper extends HelperBase
     // contact modification
 
     public void clickEditContactIcon() {
-        click(By.xpath("//img[@title='EDIT']"));
+        click(By.xpath("//img[@src='icons/pencil.png']"));
     }
 
     public void submitContactModification() {
@@ -90,11 +90,11 @@ public class ContactHelper extends HelperBase
     // contact deletion
 
     public void deleteContact() {
-        click(By.xpath("//*[@value='DELETE']"));
+        click(By.xpath("//input[@type='button'][@onclick='DeleteSel()']"));
     }
 
     public void deleteContactByEdit() {
-        click(By.xpath("//*[@value='DELETE']"));
+        click(By.xpath("//form[@action='delete.php']/input[@type='submit']"));
     }
 
     public int getContactsSize() {

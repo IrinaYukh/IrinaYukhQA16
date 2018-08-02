@@ -52,10 +52,10 @@ public class GroupHelper extends HelperBase
 
     }
 
-    public void fillGroupForm(GroupData groupData) {
-        type(By.name("group_name"), groupData.getName());
-        type(By.name("group_header"), groupData.getLogo());
-        type(By.name("group_footer"), groupData.getComment());
+    public void fillGroupForm(GroupData group) {
+        type(By.name("group_name"), group.getName());
+        type(By.name("group_header"), group.getLogo());
+        type(By.name("group_footer"), group.getComment());
     }
 
     public void submitGroupModification() {

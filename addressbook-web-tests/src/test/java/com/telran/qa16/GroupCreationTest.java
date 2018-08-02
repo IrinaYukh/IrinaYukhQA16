@@ -1,5 +1,6 @@
 package com.telran.qa16;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
