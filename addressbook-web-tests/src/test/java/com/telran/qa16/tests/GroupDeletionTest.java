@@ -11,7 +11,7 @@ public class GroupDeletionTest extends TestBase
     @Test
     public void groupDeletionTest()
     {
-        app.goToGroupsPage();
+        app.getGroupHelper().goToGroupsPage();
         if (!app.getGroupHelper().isGroupPresent())
         {
             app.getGroupHelper().createGroup();
@@ -28,7 +28,7 @@ public class GroupDeletionTest extends TestBase
     @Test
     public void groupDeletionTestByIndex()
     {
-        app.goToGroupsPage();
+        app.getGroupHelper().goToGroupsPage();
 
         if (!app.getGroupHelper().isGroupPresent())
         {

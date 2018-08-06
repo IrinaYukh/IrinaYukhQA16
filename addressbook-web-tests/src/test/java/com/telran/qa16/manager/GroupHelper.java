@@ -15,6 +15,14 @@ public class GroupHelper extends HelperBase
 
     // create Group
 
+    public void goToGroupsPage() {
+       if (!isElementPresent(By.xpath("//h1[contains(text(),'GROUPS')]"))&& !isElementPresent(By.name("new")))
+       {
+           wd.findElement(By.xpath("//*[@href='group.php']")).click();
+       }
+    }
+
+
     public void initGroupCreation() {
 
         click(By.xpath("//*[@name='new']"));

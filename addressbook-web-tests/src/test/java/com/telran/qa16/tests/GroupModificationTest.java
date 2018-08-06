@@ -11,7 +11,7 @@ public class GroupModificationTest extends TestBase
     @Test
     public void groupModificationTest()
     {
-        app.goToGroupsPage();
+        app.getGroupHelper().goToGroupsPage();
 
         if (!app.getGroupHelper().isGroupPresent())
         {
@@ -33,7 +33,7 @@ public class GroupModificationTest extends TestBase
     {
         // select and modify last element in the table
 
-        app.goToGroupsPage();
+        app.getGroupHelper().goToGroupsPage();
 
         if (!app.getGroupHelper().isGroupPresent())
         {

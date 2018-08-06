@@ -11,7 +11,7 @@ public class GroupCreationTest extends TestBase
     @Test
     public void groupCreationTest()
     {
-        app.goToGroupsPage();
+        app.getGroupHelper().goToGroupsPage();
 
         int before = app.getGroupHelper().getGroupsSize();
         app.getGroupHelper().initGroupCreation();
@@ -27,7 +27,7 @@ public class GroupCreationTest extends TestBase
     @Test
     public void groupCreationTestWithoutName()
     {
-        app.goToGroupsPage();
+        app.getGroupHelper().goToGroupsPage();
 
         int before = app.getGroupHelper().getGroupsSize();
         app.getGroupHelper().initGroupCreation();
@@ -43,7 +43,7 @@ public class GroupCreationTest extends TestBase
     @Test
     public void groupCreationTestWithLongName()
     {
-        app.goToGroupsPage();
+        app.getGroupHelper().goToGroupsPage();
 
         int before = app.getGroupHelper().getGroupsSize();
         app.getGroupHelper().initGroupCreation();

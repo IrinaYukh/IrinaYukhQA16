@@ -31,9 +31,7 @@ public class ApplicationManager
     }
 
 
-    public void goToGroupsPage() {
-        wd.findElement(By.xpath("//*[@href='group.php']")).click();
-    }
+
 
 
     public GroupHelper getGroupHelper() {
