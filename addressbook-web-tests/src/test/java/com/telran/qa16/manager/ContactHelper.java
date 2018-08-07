@@ -4,14 +4,12 @@ import com.telran.qa16.model.ContactData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ContactHelper extends HelperBase
-{
-    public ContactHelper(WebDriver wd)
-    {
+public class ContactHelper extends HelperBase {
+    public ContactHelper(WebDriver wd) {
         super(wd);
     }
 
-    public void goToAddNewContact(){
+    public void goToAddNewContact() {
         click(By.xpath("//a[@href='edit.php']"));
     }
 
@@ -19,16 +17,13 @@ public class ContactHelper extends HelperBase
         click(By.name("selected[]"));
     }
 
-    public void selectContactByIndex(int index)
-    {
-        if (index < 0)
-        {
+    public void selectContactByIndex(int index) {
+        if (index < 0) {
             int size = (-(index));
-            for (int i = 0; i < size; i++)
-            {
+            for (int i = 0; i < size; i++) {
                 createContact();
             }
-            int newIndex = getContactsSize()-getContactsSize();
+            int newIndex = getContactsSize() - getContactsSize();
             wd.findElements(By.name("selected[]")).get(newIndex).click();
 
         } else {
@@ -63,13 +58,12 @@ public class ContactHelper extends HelperBase
 
     // contact creation
 
-    public void fillContactForm(ContactData contactData)
-    {
-        type(By.name("firstname"),contactData.getFirstname());
-        type(By.name("lastname"),contactData.getLastname());
-        type(By.name("address"),contactData.getAddress());
-        type(By.name("home"),contactData.getPhone());
-        type(By.name("email"),contactData.getEmail());
+    public void fillContactForm(ContactData contactData) {
+        type(By.name("firstname"), contactData.getFirstname());
+        type(By.name("lastname"), contactData.getLastname());
+        type(By.name("address"), contactData.getAddress());
+        type(By.name("home"), contactData.getPhone());
+        type(By.name("email"), contactData.getEmail());
     }
 
     public void submitContactCreation() {
@@ -103,7 +97,6 @@ public class ContactHelper extends HelperBase
     }
 
 
-
     public void confirmAlert() {
         wd.switchTo().alert().accept();
     }
@@ -111,6 +104,14 @@ public class ContactHelper extends HelperBase
     public void dismissAlert() {
         wd.switchTo().alert().dismiss();
     }
+
+    public void isOnContactPage() {
+        if (!isElementPresent(By.xpath("//table[@id='maintable']"))) {
+            click(By.xpath("//a[contains(text(),'HOME')]"));
+        }
+
+    }
+
 
 
 

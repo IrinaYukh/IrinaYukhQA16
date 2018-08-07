@@ -11,6 +11,8 @@ public class ContactCreationTest extends TestBase
     @Test
     public void contactCreationTest1()
     {
+        app.getContactHelper().isOnContactPage();
+
         int before = app.getContactHelper().getContactsSize();
         app.getContactHelper().goToAddNewContact();
         app.getContactHelper().fillContactForm(new ContactData().setFirstname("Ivan")
@@ -21,12 +23,14 @@ public class ContactCreationTest extends TestBase
 
         int after = app.getContactHelper().getContactsSize();
 
- //       Assert.assertEquals(after,before+1);
+        Assert.assertEquals(after,before+1);
     }
 
     @Test
     public void contactCreationTest2()
     {
+        app.getContactHelper().isOnContactPage();
+
         int before = app.getContactHelper().getContactsSize();
         app.getContactHelper().goToAddNewContact();
         app.getContactHelper().fillContactForm(new ContactData().setFirstname("John")
@@ -43,6 +47,8 @@ public class ContactCreationTest extends TestBase
     @Test
     public void contactCreationTest3()
     {
+        app.getContactHelper().isOnContactPage();
+
         int before = app.getContactHelper().getContactsSize();
         app.getContactHelper().goToAddNewContact();
         app.getContactHelper().fillContactForm(new ContactData().setFirstname("")

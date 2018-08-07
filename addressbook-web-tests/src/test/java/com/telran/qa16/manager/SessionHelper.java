@@ -22,7 +22,6 @@ public class SessionHelper extends HelperBase
         click(By.xpath("//*[@type='submit']"));
     }
 
-
     public void logout() {
         click(By.xpath("//a[@onclick='document.logout.submit();']"));
     }

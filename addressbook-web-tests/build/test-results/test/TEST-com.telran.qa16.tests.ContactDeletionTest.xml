@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa16.tests.ContactDeletionTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-08-06T17:16:03" hostname="DESKTOP-Q5R7ENV" time="49.694">
+<testsuite name="com.telran.qa16.tests.ContactDeletionTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-08-06T19:14:25" hostname="DESKTOP-Q5R7ENV" time="50.583">
   <properties/>
-  <testcase name="deleteAllContactsTest3" classname="com.telran.qa16.tests.ContactDeletionTest" time="5.226"/>
-  <testcase name="deleteContactTest1" classname="com.telran.qa16.tests.ContactDeletionTest" time="14.144"/>
-  <testcase name="deleteContactTestByEditIcon" classname="com.telran.qa16.tests.ContactDeletionTest" time="14.26"/>
-  <testcase name="deleteContactUsingSelectByIndexTest" classname="com.telran.qa16.tests.ContactDeletionTest" time="16.062"/>
+  <testcase name="deleteAllContactsTest3" classname="com.telran.qa16.tests.ContactDeletionTest" time="5.227"/>
+  <testcase name="deleteContactTest1" classname="com.telran.qa16.tests.ContactDeletionTest" time="14.131"/>
+  <testcase name="deleteContactTestByEditIcon" classname="com.telran.qa16.tests.ContactDeletionTest" time="14.188"/>
+  <testcase name="deleteContactUsingSelectByIndexTest" classname="com.telran.qa16.tests.ContactDeletionTest" time="17.036"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
