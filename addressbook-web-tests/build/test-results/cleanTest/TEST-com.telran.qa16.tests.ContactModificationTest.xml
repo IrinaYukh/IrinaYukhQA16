@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.qa16.tests.ContactModificationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-11T18:19:49" hostname="DESKTOP-Q5R7ENV" time="11.96">
+  <properties/>
+  <testcase name="modifyContactTest" classname="com.telran.qa16.tests.ContactModificationTest" time="4.02"/>
+  <testcase name="modifyContactTest1" classname="com.telran.qa16.tests.ContactModificationTest" time="4.051"/>
+  <testcase name="modifyContactUsingSelectByIndexTest" classname="com.telran.qa16.tests.ContactModificationTest" time="3.888"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

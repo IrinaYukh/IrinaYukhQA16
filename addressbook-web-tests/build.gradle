@@ -14,7 +14,7 @@ dependencies {
     compile 'org.testng:testng:6.14.3'
 }
 
-test {
+task cleanTest(type:Test) {
     useTestNG{
         suites 'src/test/resources/testng.xml'
     }

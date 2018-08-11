@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa16.tests.GroupModificationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-06T19:13:54" hostname="DESKTOP-Q5R7ENV" time="1.538">
-  <properties/>
-  <testcase name="groupModificationTest" classname="com.telran.qa16.tests.GroupModificationTest" time="0.837"/>
-  <testcase name="groupModificationTestByIndex1" classname="com.telran.qa16.tests.GroupModificationTest" time="0.7"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
