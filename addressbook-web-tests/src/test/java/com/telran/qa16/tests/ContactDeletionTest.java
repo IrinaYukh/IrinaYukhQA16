@@ -6,8 +6,10 @@ import org.testng.annotations.Test;
 public class ContactDeletionTest extends TestBase
 {
     @Test
-    public void deleteContactTest1()
-    {
+    public void deleteContactTest1() throws InterruptedException {
+
+        app.getContactHelper().isOnContactPage();
+
         // Method for checking if some elements present into the table of Contacts
         if (!app.getContactHelper().isContactPresent())
         {
@@ -20,6 +22,7 @@ public class ContactDeletionTest extends TestBase
         // Confirm alert message during deletion of contact
         app.getContactHelper().confirmAlert();
 
+        Thread.sleep(2000);
         int after = app.getContactHelper().getContactsSize();
 
         Assert.assertEquals(after, before - 1);
@@ -28,6 +31,8 @@ public class ContactDeletionTest extends TestBase
     @Test
     public void deleteContactUsingSelectByIndexTest()
     {
+        app.getContactHelper().isOnContactPage();
+
         if (!app.getContactHelper().isContactPresent())
         {
             app.getContactHelper().createContact();
@@ -47,6 +52,8 @@ public class ContactDeletionTest extends TestBase
     @Test
     public void deleteContactTestByEditIcon()
     {
+        app.getContactHelper().isOnContactPage();
+
         if (!app.getContactHelper().isContactPresent())
         {
             app.getContactHelper().createContact();
@@ -62,8 +69,9 @@ public class ContactDeletionTest extends TestBase
     }
 
     @Test()
-    public void deleteAllContactsTest3()
-    {
+    public void deleteAllContactsTest3() throws InterruptedException {
+        app.getContactHelper().isOnContactPage();
+
         if (!app.getContactHelper().isContactPresent())
         {
             app.getContactHelper().createContact();
@@ -72,6 +80,7 @@ public class ContactDeletionTest extends TestBase
         app.getContactHelper().selectAllContacts();
         app.getContactHelper().deleteContact();
         app.getContactHelper().confirmAlert();
+        Thread.sleep(2000);
         int after = app.getContactHelper().getContactsSize();
 
         Assert.assertEquals(after, before - before);

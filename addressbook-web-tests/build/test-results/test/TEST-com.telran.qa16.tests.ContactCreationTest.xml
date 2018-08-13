@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa16.tests.ContactCreationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-13T16:56:29" hostname="DESKTOP-Q5R7ENV" time="17.183">
+<testsuite name="com.telran.qa16.tests.ContactCreationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-13T17:10:51" hostname="DESKTOP-Q5R7ENV" time="19.292">
   <properties/>
-  <testcase name="contactCreationTest1" classname="com.telran.qa16.tests.ContactCreationTest" time="9.16"/>
-  <testcase name="contactCreationTest2" classname="com.telran.qa16.tests.ContactCreationTest" time="4.142"/>
-  <testcase name="contactCreationTest3" classname="com.telran.qa16.tests.ContactCreationTest" time="3.88"/>
+  <testcase name="contactCreationTest1" classname="com.telran.qa16.tests.ContactCreationTest" time="10.014"/>
+  <testcase name="contactCreationTest2" classname="com.telran.qa16.tests.ContactCreationTest" time="4.657"/>
+  <testcase name="contactCreationTest3" classname="com.telran.qa16.tests.ContactCreationTest" time="4.619"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
