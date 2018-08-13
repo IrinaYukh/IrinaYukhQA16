@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa16.tests.GroupCreationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-11T18:19:18" hostname="DESKTOP-Q5R7ENV" time="12.3">
-  <properties/>
-  <testcase name="groupCreationTest" classname="com.telran.qa16.tests.GroupCreationTest" time="11.012"/>
-  <testcase name="groupCreationTestWithLongName" classname="com.telran.qa16.tests.GroupCreationTest" time="0.683"/>
-  <testcase name="groupCreationTestWithoutName" classname="com.telran.qa16.tests.GroupCreationTest" time="0.604"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
