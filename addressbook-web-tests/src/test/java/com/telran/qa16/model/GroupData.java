@@ -37,4 +37,9 @@ public class GroupData
     public String getComment() {
         return comment;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

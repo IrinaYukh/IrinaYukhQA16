@@ -22,7 +22,6 @@ public class ContactDeletionTest extends TestBase
         // Confirm alert message during deletion of contact
         app.getContactHelper().confirmAlert();
 
-        Thread.sleep(2000);
         int after = app.getContactHelper().getContactsSize();
 
         Assert.assertEquals(after, before - 1);
@@ -80,7 +79,7 @@ public class ContactDeletionTest extends TestBase
         app.getContactHelper().selectAllContacts();
         app.getContactHelper().deleteContact();
         app.getContactHelper().confirmAlert();
-        Thread.sleep(2000);
+
         int after = app.getContactHelper().getContactsSize();
 
         Assert.assertEquals(after, before - before);

@@ -3,6 +3,10 @@ package com.telran.qa16.manager;
 import com.telran.qa16.model.GroupData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class GroupHelper extends HelperBase
 {
@@ -89,4 +93,19 @@ public class GroupHelper extends HelperBase
     }
 
 
+    public List<GroupData> getGroupsList()
+    {
+        List<GroupData> groups = new ArrayList<>();
+
+        List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
+        for (WebElement element: elements)
+        {
+            String name = element.getText();
+            GroupData group = new GroupData().setName(name);
+            groups.add(group);
+
+        }
+        System.out.println(groups);
+        return groups;
+    }
 }
