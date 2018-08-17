@@ -70,7 +70,7 @@ public class GroupModificationTest extends TestBase
 
         GroupData group = new GroupData().setId(groupsListBefore.get(0).getId())
                 .setName("F").setLogo("F").setComment("F");
-        
+
         app.getGroupHelper().fillGroupForm(group);
 
         app.getGroupHelper().submitGroupModification();

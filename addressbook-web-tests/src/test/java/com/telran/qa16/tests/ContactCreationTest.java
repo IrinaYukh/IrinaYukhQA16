@@ -62,5 +62,13 @@ public class ContactCreationTest extends TestBase
         Assert.assertEquals(after, before+1);
     }
 
+    @Test
+    public void getContactList()
+    {
+        app.getContactHelper().isOnContactPage();
+
+        app.getContactHelper().getContactList();
+    }
+
 }
 

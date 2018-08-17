@@ -103,7 +103,7 @@ public class GroupHelper extends HelperBase
         {
             String name = element.getText();
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-            GroupData group = new GroupData().setName(name);
+            GroupData group = new GroupData().setId(id).setName(name);
             groups.add(group);
         }
         System.out.println(groups);

@@ -1,10 +1,16 @@
 package com.telran.qa16.manager;
 
 import com.telran.qa16.model.ContactData;
+import com.telran.qa16.model.GroupData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
-public class ContactHelper extends HelperBase {
+import java.util.ArrayList;
+import java.util.List;
+
+public class ContactHelper extends HelperBase
+{
     public ContactHelper(WebDriver wd) {
         super(wd);
     }
@@ -96,7 +102,6 @@ public class ContactHelper extends HelperBase {
         return wd.findElements(By.name("selected[]")).size();
     }
 
-
     public void confirmAlert() throws InterruptedException {
         wd.switchTo().alert().accept();
         Thread.sleep(2000);
@@ -107,12 +112,38 @@ public class ContactHelper extends HelperBase {
     }
 
     public void isOnContactPage() {
-        if (!isElementPresent(By.xpath("//table[@id='maintable']"))) {
+        if (!isElementPresent(By.xpath("//table[@id='maintable']")))
+        {
             click(By.xpath("//a[contains(text(),'HOME')]"));
         }
-
     }
 
+    public List<ContactData> getContactList()
+    {
+        List<ContactData> contacts = new ArrayList<>();
+        List<WebElement> rows = wd.findElements(By.tagName("tr"));
+
+        for (int i = 1; i<rows.size(); i++)
+        {
+            WebElement row = rows.get(i);
+            List<WebElement> cells = row.findElements(By.tagName("td"));
+            String LastName  = cells.get(1).getText();
+            String FirstName = cells.get(2).getText();
+
+            int id = Integer.parseInt(cells.get(0).findElement(By.tagName("input")).getAttribute("value"));
+
+            ContactData contact = new ContactData().setFirstname(FirstName).setLastname(LastName).setId(id);
+            contacts.add(contact);
+
+
+            System.out.println("First name; " + FirstName);
+            System.out.println("Last name; " + LastName);
+            System.out.println("ID; " + id);
+        }
+
+        System.out.println("/n" + contacts);
+        return contacts;
+    }
 
 
 

@@ -1,5 +1,7 @@
 package com.telran.qa16.model;
 
+import java.util.Objects;
+
 public class ContactData
 {
     private String firstname;
@@ -7,6 +9,7 @@ public class ContactData
     private String address;
     private String email;
     private String phone;
+    private int id;
 
     public ContactData setFirstname(String firstname)
     {
@@ -14,7 +17,13 @@ public class ContactData
         return this;
     }
 
+    public ContactData setId(int id) {
+        this.id = id;
+        return this;
+    }
+
     public ContactData setLastname(String lastname)
+
     {
         this.lastname = lastname;
         return this;
@@ -57,5 +66,31 @@ public class ContactData
 
     public String getPhone() {
         return phone;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    @Override
+    public boolean equals(Object o)
+    {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ContactData that = (ContactData) o;
+        return id == that.id &&
+                Objects.equals(firstname, that.firstname) &&
+                Objects.equals(lastname, that.lastname);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(firstname, lastname, id);
+    }
+
+    @Override
+    public String toString() {
+        return "First name: " + firstname + ", Last name: " + lastname + ", id: " + id;
     }
 }
