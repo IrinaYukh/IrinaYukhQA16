@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa16.tests.ContactCreationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-13T17:10:51" hostname="DESKTOP-Q5R7ENV" time="19.292">
+<testsuite name="com.telran.qa16.tests.ContactCreationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-08-17T17:30:45" hostname="DESKTOP-Q5R7ENV" time="24.144">
   <properties/>
-  <testcase name="contactCreationTest1" classname="com.telran.qa16.tests.ContactCreationTest" time="10.014"/>
-  <testcase name="contactCreationTest2" classname="com.telran.qa16.tests.ContactCreationTest" time="4.657"/>
-  <testcase name="contactCreationTest3" classname="com.telran.qa16.tests.ContactCreationTest" time="4.619"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="contactCreationByListTest" classname="com.telran.qa16.tests.ContactCreationTest" time="9.837"/>
+  <testcase name="contactCreationTest1" classname="com.telran.qa16.tests.ContactCreationTest" time="4.731"/>
+  <testcase name="contactCreationTest2" classname="com.telran.qa16.tests.ContactCreationTest" time="4.622"/>
+  <testcase name="contactCreationTest3" classname="com.telran.qa16.tests.ContactCreationTest" time="4.775"/>
+  <testcase name="getContactList" classname="com.telran.qa16.tests.ContactCreationTest" time="0.177"/>
+  <system-out><![CDATA[[]
+Name: listName   Family: listFamily  id: 589
+[[First name: listName, Last name: listFamily, id: 589 ]]
+Name:    Family:   id: 592
+Name: Ivan   Family: Ivanov  id: 590
+Name: listName   Family: listFamily  id: 589
+Name: John   Family: Smith  id: 591
+[[First name: , Last name: , id: 592 ], [First name: Ivan, Last name: Ivanov, id: 590 ], [First name: listName, Last name: listFamily, id: 589 ], [First name: John, Last name: Smith, id: 591 ]]
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

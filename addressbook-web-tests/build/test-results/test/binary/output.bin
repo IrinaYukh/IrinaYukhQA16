@@ -1,0 +1,37 @@
+»[Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 252 ; ]
+‡[Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 286 ; ]
+¯[Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 286 ; , Name: name, id: 287 ; ]
+π[Name: modifyedName, id: 289 ; , Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 286 ; , Name: name, id: 287 ; ]
+Æ[Name: F, id: 289 ; , Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 286 ; , Name: name, id: 287 ; ]
+Å[Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 286 ; ]
+È[Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; ]
+È[Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; ]
+»[Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; ]
+[]
+.Name: listName   Family: listFamily  id: 589
+;[[First name: listName, Last name: listFamily, id: 589 ]]
+Name:    Family:   id: 592
+&Name: Ivan   Family: Ivanov  id: 590
+.Name: listName   Family: listFamily  id: 589
+%Name: John   Family: Smith  id: 591
+√[[First name: , Last name: , id: 592 ], [First name: Ivan, Last name: Ivanov, id: 590 ], [First name: listName, Last name: listFamily, id: 589 ], [First name: John, Last name: Smith, id: 591 ]]
+&Name: Ivan   Family: Ivanov  id: 590
+.Name: listName   Family: listFamily  id: 589
+)Name: Richard   Family: Lockey  id: 592
+%Name: John   Family: Smith  id: 591
+–[[First name: Ivan, Last name: Ivanov, id: 590 ], [First name: listName, Last name: listFamily, id: 589 ], [First name: Richard, Last name: Lockey, id: 592 ], [First name: John, Last name: Smith, id: 591 ]]
+6Name: changeIDname   Family: changeIDfamily  id: 590
+.Name: listName   Family: listFamily  id: 589
+)Name: Richard   Family: Lockey  id: 592
+%Name: John   Family: Smith  id: 591
+‡[[First name: changeIDname, Last name: changeIDfamily, id: 590 ], [First name: listName, Last name: listFamily, id: 589 ], [First name: Richard, Last name: Lockey, id: 592 ], [First name: John, Last name: Smith, id: 591 ]]
+ #Name: John   Family: Doe  id: 593
+ 0[[First name: John, Last name: Doe, id: 593 ]]
+ #Name: John   Family: Doe  id: 593
+ #Name: John   Family: Doe  id: 594
+ ^[[First name: John, Last name: Doe, id: 593 ], [First name: John, Last name: Doe, id: 594 ]]
+ #Name: John   Family: Doe  id: 594
+ 0[[First name: John, Last name: Doe, id: 594 ]]
+$#Name: John   Family: Doe  id: 597
+$0[[First name: John, Last name: Doe, id: 597 ]]
+$[]

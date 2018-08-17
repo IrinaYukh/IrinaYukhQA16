@@ -68,12 +68,14 @@ public class ContactModificationTest extends TestBase
         {
             app.getContactHelper().createContact();
         }
-
+        // create list of objects from the table before modification
         List<ContactData>contactListBefore = app.getContactHelper().getContactList();
 
         app.getContactHelper().selectContact();
         app.getContactHelper().clickEditContactIcon();
-
+        // create new object of Contact data and say for setId to take object with index [0]
+        // and re-direct his id to the new created contact
+        // after to fillContactForm we put new (only now) created contact tmpContact
         ContactData tmpContact = new ContactData().setId(contactListBefore.get(0).getId()).setFirstname("changeIDname")
                 .setLastname("changeIDfamily");
         app.getContactHelper().fillContactForm(tmpContact);
@@ -81,10 +83,11 @@ public class ContactModificationTest extends TestBase
         app.getContactHelper().submitContactModification();
 
         List<ContactData>contactListAfter = app.getContactHelper().getContactList();
-        contactListBefore.remove(0);
-        contactListBefore.add(tmpContact);
+        contactListBefore.remove(0);  // from the list remove object with index [0]
+        contactListBefore.add(tmpContact);  // and add to this place new contact tmpContact
 
-        Assert.assertEquals(contactListAfter.size(),contactListBefore.size());
+        Assert.assertEquals(contactListAfter.size(),contactListBefore.size()); // check the sizes of the lists
+                                                                                // After and Before modification
         Assert.assertEquals(new HashSet<Object>(contactListAfter), new HashSet<Object>(contactListBefore));
     }
 

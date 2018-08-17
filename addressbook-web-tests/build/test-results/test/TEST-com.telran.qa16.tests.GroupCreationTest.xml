@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa16.tests.GroupCreationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-13T17:10:34" hostname="DESKTOP-Q5R7ENV" time="13.588">
+<testsuite name="com.telran.qa16.tests.GroupCreationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-08-17T17:30:01" hostname="DESKTOP-Q5R7ENV" time="23.055">
   <properties/>
-  <testcase name="groupCreationTest" classname="com.telran.qa16.tests.GroupCreationTest" time="11.397"/>
-  <testcase name="groupCreationTestWithLongName" classname="com.telran.qa16.tests.GroupCreationTest" time="1.103"/>
-  <testcase name="groupCreationTestWithoutName" classname="com.telran.qa16.tests.GroupCreationTest" time="1.088"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="getGroupList" classname="com.telran.qa16.tests.GroupCreationTest" time="10.309"/>
+  <testcase name="groupCreationTest" classname="com.telran.qa16.tests.GroupCreationTest" time="3.084"/>
+  <testcase name="groupCreationTestList" classname="com.telran.qa16.tests.GroupCreationTest" time="3.516"/>
+  <testcase name="groupCreationTestWithLongName" classname="com.telran.qa16.tests.GroupCreationTest" time="3.055"/>
+  <testcase name="groupCreationTestWithoutName" classname="com.telran.qa16.tests.GroupCreationTest" time="3.089"/>
+  <system-out><![CDATA[[Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 252 ; ]
+[Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 286 ; ]
+[Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 286 ; , Name: name, id: 287 ; ]
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

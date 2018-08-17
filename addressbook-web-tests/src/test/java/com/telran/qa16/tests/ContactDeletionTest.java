@@ -134,7 +134,8 @@ public class ContactDeletionTest extends TestBase
         app.getContactHelper().confirmAlert();
 
         List<ContactData>contactListAfter = app.getContactHelper().getContactList();
-        contactListBefore.remove(0);
+        contactListBefore.remove(0); // remove from the List, that was created before the deletion
+                                            // into the table, object with index [0]
 
         Assert.assertEquals(contactListAfter.size(), contactListBefore.size());
         Assert.assertEquals(contactListAfter,contactListBefore);

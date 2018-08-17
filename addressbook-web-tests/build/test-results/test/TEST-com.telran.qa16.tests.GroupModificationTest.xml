@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa16.tests.GroupModificationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-13T17:10:47" hostname="DESKTOP-Q5R7ENV" time="3.046">
+<testsuite name="com.telran.qa16.tests.GroupModificationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-17T17:30:24" hostname="DESKTOP-Q5R7ENV" time="10.758">
   <properties/>
-  <testcase name="groupModificationTest" classname="com.telran.qa16.tests.GroupModificationTest" time="1.595"/>
-  <testcase name="groupModificationTestByIndex1" classname="com.telran.qa16.tests.GroupModificationTest" time="1.451"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="groupModificationTest" classname="com.telran.qa16.tests.GroupModificationTest" time="3.517"/>
+  <testcase name="groupModificationTestByIndex1" classname="com.telran.qa16.tests.GroupModificationTest" time="3.506"/>
+  <testcase name="groupModificationTestList" classname="com.telran.qa16.tests.GroupModificationTest" time="3.734"/>
+  <system-out><![CDATA[[Name: modifyedName, id: 289 ; , Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 286 ; , Name: name, id: 287 ; ]
+[Name: F, id: 289 ; , Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 286 ; , Name: name, id: 287 ; ]
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

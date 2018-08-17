@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa16.tests.GroupDeletionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-13T17:10:50" hostname="DESKTOP-Q5R7ENV" time="1.086">
+<testsuite name="com.telran.qa16.tests.GroupDeletionTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-08-17T17:30:35" hostname="DESKTOP-Q5R7ENV" time="10.284">
   <properties/>
-  <testcase name="groupDeletionTest" classname="com.telran.qa16.tests.GroupDeletionTest" time="0.524"/>
-  <testcase name="groupDeletionTestByIndex" classname="com.telran.qa16.tests.GroupDeletionTest" time="0.562"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="groupDeletionTest" classname="com.telran.qa16.tests.GroupDeletionTest" time="2.453"/>
+  <testcase name="groupDeletionTestByIndex" classname="com.telran.qa16.tests.GroupDeletionTest" time="2.416"/>
+  <testcase name="groupDeletionTestByIndexWithList" classname="com.telran.qa16.tests.GroupDeletionTest" time="2.724"/>
+  <testcase name="groupDeletionTestList" classname="com.telran.qa16.tests.GroupDeletionTest" time="2.689"/>
+  <system-out><![CDATA[[Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 286 ; ]
+[Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; ]
+[Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; ]
+[Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; ]
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

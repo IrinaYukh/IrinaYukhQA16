@@ -120,20 +120,25 @@ public class ContactHelper extends HelperBase
 
     public List<ContactData> getContactList()
     {
-        List<ContactData> contacts = new ArrayList<>();
-        List<WebElement> rows = wd.findElements(By.tagName("tr"));
+        List<ContactData> contacts = new ArrayList<>(); // create list of the contacts
+        List<WebElement> rows = wd.findElements(By.tagName("tr")); // made a List web elements "rows" using
+        // elements into location between tags <tr><tr/>
 
         for (int i = 1; i<rows.size(); i++)
         {
-            WebElement row = rows.get(i);
-            List<WebElement> cells = row.findElements(By.tagName("td"));
-            String LastName  = cells.get(1).getText();
+            WebElement row = rows.get(i); // take the object in the row according the "for" cycle
+            List<WebElement> cells = row.findElements(By.tagName("td")); // put to the List "cells" all the cells of current row
+                                                                        // In this row present some numbers of <td><td/>
+            String LastName  = cells.get(1).getText(); // to the String put the text from cell with index [1]
+                                                        //( that means that from <td> number 1 take the text  )
             String FirstName = cells.get(2).getText();
 
             int id = Integer.parseInt(cells.get(0).findElement(By.tagName("input")).getAttribute("value"));
+            // into <tr> we have some <td>, and the first <td> have tag 'input' and in the 'value' it have id number
 
             ContactData contact = new ContactData().setFirstname(FirstName).setLastname(LastName).setId(id);
-            contacts.add(contact);
+            // create new contact using our new Strings and int id values
+            contacts.add(contact); // put new contact to the List of contacts
 
 
             System.out.println("Name: " + FirstName + "   Family: " + LastName + "  id: " + id);
