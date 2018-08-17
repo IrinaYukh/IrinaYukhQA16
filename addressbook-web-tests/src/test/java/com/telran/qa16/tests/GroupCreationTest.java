@@ -11,8 +11,7 @@ public class GroupCreationTest extends TestBase
 {
 
     @Test
-    public void groupCreationTest()
-    {
+    public void groupCreationTest() throws InterruptedException {
         app.getGroupHelper().goToGroupsPage();
 
         int before = app.getGroupHelper().getGroupsSize();
@@ -27,8 +26,7 @@ public class GroupCreationTest extends TestBase
     }
 
     @Test
-    public void groupCreationTestWithoutName()
-    {
+    public void groupCreationTestWithoutName() throws InterruptedException {
         app.getGroupHelper().goToGroupsPage();
 
         int before = app.getGroupHelper().getGroupsSize();
@@ -43,8 +41,7 @@ public class GroupCreationTest extends TestBase
     }
 
     @Test
-    public void groupCreationTestWithLongName()
-    {
+    public void groupCreationTestWithLongName() throws InterruptedException {
         app.getGroupHelper().goToGroupsPage();
 
         int before = app.getGroupHelper().getGroupsSize();
@@ -59,8 +56,7 @@ public class GroupCreationTest extends TestBase
     }
 
     @Test
-    public void groupCreationTestList()
-    {
+    public void groupCreationTestList() throws InterruptedException {
         app.getGroupHelper().goToGroupsPage();
 
         int before = app.getGroupHelper().getGroupsSize();
@@ -76,7 +72,7 @@ public class GroupCreationTest extends TestBase
 
         List<GroupData>groupsListAfter = app.getGroupHelper().getGroupsList();
 
-   //     Assert.assertEquals(after, before + 1);
+   //   Assert.assertEquals(after, before + 1);
         Assert.assertEquals(groupsListAfter.size(), groupsListBefore.size()+1);
 
     }

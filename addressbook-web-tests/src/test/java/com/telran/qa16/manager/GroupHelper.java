@@ -36,11 +36,12 @@ public class GroupHelper extends HelperBase
         click(By.xpath("//input[@value='Enter information']"));
     }
 
-    public void returnToGroupPage() {
+    public void returnToGroupPage() throws InterruptedException {
         click(By.xpath("//a[contains(text(),'group page')]"));
+        Thread.sleep(2000);
     }
 
-    public void createGroup() {
+    public void createGroup() throws InterruptedException {
         initGroupCreation();
         fillGroupForm(new GroupData().setName("nameFromTestBase")
                 .setLogo("logoFromTestBase")
@@ -101,9 +102,9 @@ public class GroupHelper extends HelperBase
         for (WebElement element: elements)
         {
             String name = element.getText();
+            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
             GroupData group = new GroupData().setName(name);
             groups.add(group);
-
         }
         System.out.println(groups);
         return groups;
