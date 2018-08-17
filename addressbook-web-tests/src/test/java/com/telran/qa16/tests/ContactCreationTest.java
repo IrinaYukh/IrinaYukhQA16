@@ -4,6 +4,8 @@ import com.telran.qa16.model.ContactData;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import java.util.List;
+
 
 public class ContactCreationTest extends TestBase
 {
@@ -68,6 +70,25 @@ public class ContactCreationTest extends TestBase
         app.getContactHelper().isOnContactPage();
 
         app.getContactHelper().getContactList();
+    }
+
+    @Test
+    public void contactCreationByListTest()
+    {
+        app.getContactHelper().isOnContactPage();
+
+        List<ContactData> contactListBefore = app.getContactHelper().getContactList();
+
+        app.getContactHelper().goToAddNewContact();
+        app.getContactHelper().fillContactForm(new ContactData().setFirstname("listName")
+                .setLastname("listFamily")
+                .setAddress("Rehovot,")
+                .setEmail("list@mail.com").setPhone("08-654-2222"));
+        app.getContactHelper().submitContactCreation();
+
+        List<ContactData> contactListAfter = app.getContactHelper().getContactList();
+
+        Assert.assertEquals(contactListAfter.size(), contactListBefore.size()+1);
     }
 
 }

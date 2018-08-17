@@ -1,7 +1,10 @@
 package com.telran.qa16.tests;
 
+import com.telran.qa16.model.ContactData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class ContactDeletionTest extends TestBase
 {
@@ -83,6 +86,58 @@ public class ContactDeletionTest extends TestBase
         int after = app.getContactHelper().getContactsSize();
 
         Assert.assertEquals(after, before - before);
+
+    }
+
+    @Test
+    public void deleteContactByIndexUsingListTest()
+    {
+        app.getContactHelper().isOnContactPage();
+
+        if (!app.getContactHelper().isContactPresent())
+        {
+            app.getContactHelper().createContact();
+        }
+        List<ContactData>contactListBefore = app.getContactHelper().getContactList();
+
+        app.getContactHelper().selectContactByIndex(contactListBefore.size()-2);
+        contactListBefore = app.getContactHelper().getContactList();
+        app.getContactHelper().clickEditContactIcon();
+        app.getContactHelper().deleteContactByEdit();
+
+
+        List<ContactData>contactListAfter = app.getContactHelper().getContactList();
+
+        contactListBefore.remove(contactListBefore.size()-2);
+
+        Assert.assertEquals(contactListAfter.size(), contactListBefore.size());
+        Assert.assertEquals(contactListAfter, contactListBefore);
+
+    }
+
+    @Test
+    public void deleteContactWithListTest() throws InterruptedException {
+
+        app.getContactHelper().isOnContactPage();
+
+        // Method for checking if some elements present into the table of Contacts
+        if (!app.getContactHelper().isContactPresent())
+        {
+            app.getContactHelper().createContact();
+        }
+
+        List<ContactData>contactListBefore = app.getContactHelper().getContactList();
+
+        app.getContactHelper().selectContact();
+        app.getContactHelper().deleteContact();
+        // Confirm alert message during deletion of contact
+        app.getContactHelper().confirmAlert();
+
+        List<ContactData>contactListAfter = app.getContactHelper().getContactList();
+        contactListBefore.remove(0);
+
+        Assert.assertEquals(contactListAfter.size(), contactListBefore.size());
+        Assert.assertEquals(contactListAfter,contactListBefore);
 
     }
 

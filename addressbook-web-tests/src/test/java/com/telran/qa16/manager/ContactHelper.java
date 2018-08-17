@@ -136,12 +136,11 @@ public class ContactHelper extends HelperBase
             contacts.add(contact);
 
 
-            System.out.println("First name; " + FirstName);
-            System.out.println("Last name; " + LastName);
-            System.out.println("ID; " + id);
+            System.out.println("Name: " + FirstName + "   Family: " + LastName + "  id: " + id);
+
         }
 
-        System.out.println("/n" + contacts);
+        System.out.println(contacts);
         return contacts;
     }
 

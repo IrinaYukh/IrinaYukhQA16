@@ -4,6 +4,9 @@ import com.telran.qa16.model.ContactData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.HashSet;
+import java.util.List;
+
 public class ContactModificationTest extends TestBase
 {
     @Test
@@ -56,6 +59,33 @@ public class ContactModificationTest extends TestBase
         int after = app.getContactHelper().getContactsSize();
 
         Assert.assertEquals(after, before);
+    }
+
+    @Test
+    public void modifyContactUsingListTest()
+    {
+        if (!app.getContactHelper().isContactPresent())
+        {
+            app.getContactHelper().createContact();
+        }
+
+        List<ContactData>contactListBefore = app.getContactHelper().getContactList();
+
+        app.getContactHelper().selectContact();
+        app.getContactHelper().clickEditContactIcon();
+
+        ContactData tmpContact = new ContactData().setId(contactListBefore.get(0).getId()).setFirstname("changeIDname")
+                .setLastname("changeIDfamily");
+        app.getContactHelper().fillContactForm(tmpContact);
+
+        app.getContactHelper().submitContactModification();
+
+        List<ContactData>contactListAfter = app.getContactHelper().getContactList();
+        contactListBefore.remove(0);
+        contactListBefore.add(tmpContact);
+
+        Assert.assertEquals(contactListAfter.size(),contactListBefore.size());
+        Assert.assertEquals(new HashSet<Object>(contactListAfter), new HashSet<Object>(contactListBefore));
     }
 
 }

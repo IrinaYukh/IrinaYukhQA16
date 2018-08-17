@@ -91,6 +91,6 @@ public class ContactData
 
     @Override
     public String toString() {
-        return "First name: " + firstname + ", Last name: " + lastname + ", id: " + id;
+        return "[First name: " + firstname + ", Last name: " + lastname + ", id: " + id + " ]";
     }
 }
