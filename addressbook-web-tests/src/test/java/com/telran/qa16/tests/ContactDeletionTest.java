@@ -126,19 +126,19 @@ public class ContactDeletionTest extends TestBase
             app.getContactHelper().createContact();
         }
 
-        List<ContactData>contactListBefore = app.getContactHelper().getContactList();
+        List<ContactData>contactBefore = app.getContactHelper().getContactList();
 
         app.getContactHelper().selectContact();
         app.getContactHelper().deleteContact();
         // Confirm alert message during deletion of contact
         app.getContactHelper().confirmAlert();
 
-        List<ContactData>contactListAfter = app.getContactHelper().getContactList();
-        contactListBefore.remove(0); // remove from the List, that was created before the deletion
+        List<ContactData>contactAfter = app.getContactHelper().getContactList();
+        contactBefore.remove(0); // remove from the List, that was created before the deletion
                                             // into the table, object with index [0]
 
-        Assert.assertEquals(contactListAfter.size(), contactListBefore.size());
-        Assert.assertEquals(contactListAfter,contactListBefore);
+        Assert.assertEquals(contactAfter.size(), contactBefore.size());
+        Assert.assertEquals(contactAfter,contactBefore);
 
     }
 

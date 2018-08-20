@@ -77,7 +77,7 @@ public class ContactCreationTest extends TestBase
     {
         app.getContactHelper().isOnContactPage();
 
-        List<ContactData> contactListBefore = app.getContactHelper().getContactList();
+        List<ContactData> contactBefore = app.getContactHelper().getContactList();
 
         app.getContactHelper().goToAddNewContact();
         app.getContactHelper().fillContactForm(new ContactData().setFirstname("listName")
@@ -86,9 +86,9 @@ public class ContactCreationTest extends TestBase
                 .setEmail("list@mail.com").setPhone("08-654-2222"));
         app.getContactHelper().submitContactCreation();
 
-        List<ContactData> contactListAfter = app.getContactHelper().getContactList();
+        List<ContactData> contactAfter = app.getContactHelper().getContactList();
 
-        Assert.assertEquals(contactListAfter.size(), contactListBefore.size()+1);
+        Assert.assertEquals(contactAfter.size(), contactBefore.size()+1);
     }
 
 }

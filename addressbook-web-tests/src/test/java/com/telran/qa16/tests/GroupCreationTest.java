@@ -4,6 +4,7 @@ import com.telran.qa16.model.GroupData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.HashSet;
 import java.util.List;
 
 
@@ -59,8 +60,6 @@ public class GroupCreationTest extends TestBase
     public void groupCreationTestList() throws InterruptedException {
         app.getGroupHelper().goToGroupsPage();
 
-        int before = app.getGroupHelper().getGroupsSize();
-
         List<GroupData>groupsListBefore = app.getGroupHelper().getGroupsList();
 
         app.getGroupHelper().initGroupCreation();
@@ -68,13 +67,39 @@ public class GroupCreationTest extends TestBase
         app.getGroupHelper().submitGroupCreation();
         app.getGroupHelper().returnToGroupPage();
 
-        int after = app.getGroupHelper().getGroupsSize();
+        List<GroupData>groupsListAfter = app.getGroupHelper().getGroupsList();
+
+        Assert.assertEquals(groupsListAfter.size(), groupsListBefore.size()+1);
+    }
+
+    @Test
+    public void groupCreationTestList2() throws InterruptedException {
+        app.getGroupHelper().goToGroupsPage();
+
+        List<GroupData>groupsListBefore = app.getGroupHelper().getGroupsList();
+
+        app.getGroupHelper().initGroupCreation();
+
+        GroupData group = new GroupData().setName("listNameG").setLogo("listLogoG").setComment("listCommentG");
+        app.getGroupHelper().fillGroupForm(group);
+        app.getGroupHelper().submitGroupCreation();
+        app.getGroupHelper().returnToGroupPage();
 
         List<GroupData>groupsListAfter = app.getGroupHelper().getGroupsList();
 
-   //   Assert.assertEquals(after, before + 1);
         Assert.assertEquals(groupsListAfter.size(), groupsListBefore.size()+1);
 
+        groupsListBefore.add(group);
+        int max = 0;
+        for (GroupData gr : groupsListAfter)
+        {
+            if (gr.getId()>max)
+            {
+                max = gr.getId();
+            }
+            group.setId(max);
+        }
+        Assert.assertEquals(new HashSet<Object>(groupsListAfter), new HashSet<Object>(groupsListBefore));
     }
 
     @Test
