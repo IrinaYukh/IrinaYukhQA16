@@ -100,6 +100,7 @@ public class GroupCreationTest extends TestBase
             group.setId(max);
         }
         Assert.assertEquals(new HashSet<Object>(groupsListAfter), new HashSet<Object>(groupsListBefore));
+        // on this line compare the group lists before and after creation the new group (object into the list)
     }
 
     @Test
