@@ -1,0 +1,2 @@
+19:11:00.250 [main] INFO  c.t.qa16.tests.GroupCreationTest - Start test groupCreationTest
+19:11:13.216 [main] INFO  c.t.qa16.tests.GroupCreationTest - Stop groupCreationTest

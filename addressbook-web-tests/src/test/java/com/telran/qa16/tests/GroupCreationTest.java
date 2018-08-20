@@ -1,6 +1,8 @@
 package com.telran.qa16.tests;
 
 import com.telran.qa16.model.GroupData;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -11,8 +13,10 @@ import java.util.List;
 public class GroupCreationTest extends TestBase
 {
 
+
     @Test
     public void groupCreationTest() throws InterruptedException {
+
         app.getGroupHelper().goToGroupsPage();
 
         int before = app.getGroupHelper().getGroupsSize();
@@ -23,7 +27,6 @@ public class GroupCreationTest extends TestBase
         int after = app.getGroupHelper().getGroupsSize();
 
         Assert.assertEquals(after, before + 1);
-
     }
 
     @Test
