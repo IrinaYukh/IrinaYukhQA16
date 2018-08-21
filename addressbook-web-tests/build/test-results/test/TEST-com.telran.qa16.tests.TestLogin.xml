@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa16.tests.TestLogin" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-17T17:29:49" hostname="DESKTOP-Q5R7ENV" time="12.164">
+<testsuite name="com.telran.qa16.tests.TestLogin" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-20T17:03:20" hostname="DESKTOP-Q5R7ENV" time="11.238">
   <properties/>
-  <testcase name="loginNegativeTest" classname="com.telran.qa16.tests.TestLogin" time="5.695"/>
-  <testcase name="loginPositiveTest" classname="com.telran.qa16.tests.TestLogin" time="0.68"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="loginNegativeTest" classname="com.telran.qa16.tests.TestLogin" time="5.386"/>
+  <testcase name="loginPositiveTest" classname="com.telran.qa16.tests.TestLogin" time="0.277"/>
+  <system-out><![CDATA[20:03:20.792 [Test worker] INFO  com.telran.qa16.tests.TestBase - Start test loginNegativeTest
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

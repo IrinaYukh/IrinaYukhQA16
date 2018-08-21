@@ -4,6 +4,7 @@ import com.telran.qa16.model.ContactData;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import java.util.HashSet;
 import java.util.List;
 
 
@@ -80,15 +81,28 @@ public class ContactCreationTest extends TestBase
         List<ContactData> contactBefore = app.getContactHelper().getContactList();
 
         app.getContactHelper().goToAddNewContact();
-        app.getContactHelper().fillContactForm(new ContactData().setFirstname("listName")
+        ContactData contact = new ContactData().setFirstname("listName")
                 .setLastname("listFamily")
                 .setAddress("Rehovot,")
-                .setEmail("list@mail.com").setPhone("08-654-2222"));
+                .setEmail("list@mail.com").setPhone("08-654-2222");
+        app.getContactHelper().fillContactForm(contact);
         app.getContactHelper().submitContactCreation();
 
         List<ContactData> contactAfter = app.getContactHelper().getContactList();
 
         Assert.assertEquals(contactAfter.size(), contactBefore.size()+1);
+
+        contactBefore.add(contact);
+        int max = 0;
+        for (ContactData cont: contactAfter )
+        {
+            if (cont.getId()>max)
+            {
+                max = cont.getId();
+            }
+            contact.setId(max);
+        }
+        Assert.assertEquals(new HashSet<Object>(contactAfter), new HashSet<Object>(contactBefore));
     }
 
 }

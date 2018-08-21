@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa16.tests.ContactDeletionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-08-17T17:31:29" hostname="DESKTOP-Q5R7ENV" time="69.316">
+<testsuite name="com.telran.qa16.tests.ContactDeletionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-08-20T17:04:54" hostname="DESKTOP-Q5R7ENV" time="64.59">
   <properties/>
-  <testcase name="deleteAllContactsTest3" classname="com.telran.qa16.tests.ContactDeletionTest" time="7.385"/>
-  <testcase name="deleteContactByIndexUsingListTest" classname="com.telran.qa16.tests.ContactDeletionTest" time="18.158"/>
-  <testcase name="deleteContactTest1" classname="com.telran.qa16.tests.ContactDeletionTest" time="7.289"/>
-  <testcase name="deleteContactTestByEditIcon" classname="com.telran.qa16.tests.ContactDeletionTest" time="15.179"/>
-  <testcase name="deleteContactUsingSelectByIndexTest" classname="com.telran.qa16.tests.ContactDeletionTest" time="17.788"/>
-  <testcase name="deleteContactWithListTest" classname="com.telran.qa16.tests.ContactDeletionTest" time="3.513"/>
-  <system-out><![CDATA[Name: John   Family: Doe  id: 593
-[[First name: John, Last name: Doe, id: 593 ]]
-Name: John   Family: Doe  id: 593
-Name: John   Family: Doe  id: 594
-[[First name: John, Last name: Doe, id: 593 ], [First name: John, Last name: Doe, id: 594 ]]
-Name: John   Family: Doe  id: 594
-[[First name: John, Last name: Doe, id: 594 ]]
-Name: John   Family: Doe  id: 597
-[[First name: John, Last name: Doe, id: 597 ]]
+  <testcase name="deleteAllContactsTest3" classname="com.telran.qa16.tests.ContactDeletionTest" time="7.144"/>
+  <testcase name="deleteContactByIndexUsingListTest" classname="com.telran.qa16.tests.ContactDeletionTest" time="16.357"/>
+  <testcase name="deleteContactTest1" classname="com.telran.qa16.tests.ContactDeletionTest" time="7.216"/>
+  <testcase name="deleteContactTestByEditIcon" classname="com.telran.qa16.tests.ContactDeletionTest" time="14.344"/>
+  <testcase name="deleteContactUsingSelectByIndexTest" classname="com.telran.qa16.tests.ContactDeletionTest" time="16.179"/>
+  <testcase name="deleteContactWithListTest" classname="com.telran.qa16.tests.ContactDeletionTest" time="3.339"/>
+  <system-out><![CDATA[20:04:54.990 [Test worker] INFO  com.telran.qa16.tests.TestBase - Start test deleteAllContactsTest3
+Name: John   Family: Doe  id: 651
+[[First name: John, Last name: Doe, id: 651 ]]
+Name: John   Family: Doe  id: 651
+Name: John   Family: Doe  id: 652
+[[First name: John, Last name: Doe, id: 651 ], [First name: John, Last name: Doe, id: 652 ]]
+Name: John   Family: Doe  id: 652
+[[First name: John, Last name: Doe, id: 652 ]]
+Name: John   Family: Doe  id: 655
+[[First name: John, Last name: Doe, id: 655 ]]
 []
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

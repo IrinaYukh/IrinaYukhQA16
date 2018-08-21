@@ -1,60 +1,60 @@
-19:52:38.866 [main] INFO  com.telran.qa16.tests.TestBase - Start test contactCreationByListTest
-19:52:43.449 [main] INFO  com.telran.qa16.tests.TestBase - Stop contactCreationByListTest
-19:52:43.449 [main] INFO  com.telran.qa16.tests.TestBase - Start test contactCreationTest1
-19:52:47.380 [main] INFO  com.telran.qa16.tests.TestBase - Stop contactCreationTest1
-19:52:47.381 [main] INFO  com.telran.qa16.tests.TestBase - Start test contactCreationTest2
-19:52:51.332 [main] INFO  com.telran.qa16.tests.TestBase - Stop contactCreationTest2
-19:52:51.333 [main] INFO  com.telran.qa16.tests.TestBase - Start test contactCreationTest3
-19:52:55.133 [main] INFO  com.telran.qa16.tests.TestBase - Stop contactCreationTest3
-19:52:55.133 [main] INFO  com.telran.qa16.tests.TestBase - Start test getContactList
-19:52:55.474 [main] INFO  com.telran.qa16.tests.TestBase - Stop getContactList
-19:52:55.474 [main] INFO  com.telran.qa16.tests.TestBase - Start test loginNegativeTest
-19:53:06.288 [main] INFO  com.telran.qa16.tests.TestBase - Stop loginNegativeTest
-19:53:06.288 [main] INFO  com.telran.qa16.tests.TestBase - Start test loginPositiveTest
-19:53:06.707 [main] INFO  com.telran.qa16.tests.TestBase - Stop loginPositiveTest
-19:53:06.709 [main] INFO  com.telran.qa16.tests.TestBase - Start test deleteAllContactsTest3
-19:53:13.914 [main] INFO  com.telran.qa16.tests.TestBase - Stop deleteAllContactsTest3
-19:53:13.916 [main] INFO  com.telran.qa16.tests.TestBase - Start test deleteContactByIndexUsingListTest
-19:53:30.363 [main] INFO  com.telran.qa16.tests.TestBase - Stop deleteContactByIndexUsingListTest
-19:53:30.364 [main] INFO  com.telran.qa16.tests.TestBase - Start test deleteContactTest1
-19:53:37.549 [main] INFO  com.telran.qa16.tests.TestBase - Stop deleteContactTest1
-19:53:37.551 [main] INFO  com.telran.qa16.tests.TestBase - Start test deleteContactTestByEditIcon
-19:53:51.940 [main] INFO  com.telran.qa16.tests.TestBase - Stop deleteContactTestByEditIcon
-19:53:51.941 [main] INFO  com.telran.qa16.tests.TestBase - Start test deleteContactUsingSelectByIndexTest
-19:54:08.292 [main] INFO  com.telran.qa16.tests.TestBase - Stop deleteContactUsingSelectByIndexTest
-19:54:08.293 [main] INFO  com.telran.qa16.tests.TestBase - Start test deleteContactWithListTest
-19:54:11.660 [main] INFO  com.telran.qa16.tests.TestBase - Stop deleteContactWithListTest
-19:54:11.661 [main] INFO  com.telran.qa16.tests.TestBase - Start test modifyContactTest
-19:54:24.669 [main] INFO  com.telran.qa16.tests.TestBase - Stop modifyContactTest
-19:54:24.669 [main] INFO  com.telran.qa16.tests.TestBase - Start test modifyContactTest1
-19:54:28.662 [main] INFO  com.telran.qa16.tests.TestBase - Stop modifyContactTest1
-19:54:28.663 [main] INFO  com.telran.qa16.tests.TestBase - Start test modifyContactUsingListTest
-19:54:32.369 [main] INFO  com.telran.qa16.tests.TestBase - Stop modifyContactUsingListTest
-19:54:32.369 [main] INFO  com.telran.qa16.tests.TestBase - Start test modifyContactUsingSelectByIndexTest
-19:54:40.286 [main] INFO  com.telran.qa16.tests.TestBase - Stop modifyContactUsingSelectByIndexTest
-19:54:40.287 [main] INFO  com.telran.qa16.tests.TestBase - Start test getGroupList
-19:54:50.886 [main] INFO  com.telran.qa16.tests.TestBase - Stop getGroupList
-19:54:50.887 [main] INFO  com.telran.qa16.tests.TestBase - Start test groupCreationTest
-19:54:53.591 [main] INFO  com.telran.qa16.tests.TestBase - Stop groupCreationTest
-19:54:53.592 [main] INFO  com.telran.qa16.tests.TestBase - Start test groupCreationTestList
-19:54:57.150 [main] INFO  com.telran.qa16.tests.TestBase - Stop groupCreationTestList
-19:54:57.150 [main] INFO  com.telran.qa16.tests.TestBase - Start test groupCreationTestList2
-19:55:00.477 [main] INFO  com.telran.qa16.tests.TestBase - Stop groupCreationTestList2
-19:55:00.477 [main] INFO  com.telran.qa16.tests.TestBase - Start test groupCreationTestWithLongName
-19:55:03.232 [main] INFO  com.telran.qa16.tests.TestBase - Stop groupCreationTestWithLongName
-19:55:03.232 [main] INFO  com.telran.qa16.tests.TestBase - Start test groupCreationTestWithoutName
-19:55:05.937 [main] INFO  com.telran.qa16.tests.TestBase - Stop groupCreationTestWithoutName
-19:55:05.938 [main] INFO  com.telran.qa16.tests.TestBase - Start test groupDeletionTest
-19:55:08.260 [main] INFO  com.telran.qa16.tests.TestBase - Stop groupDeletionTest
-19:55:08.261 [main] INFO  com.telran.qa16.tests.TestBase - Start test groupDeletionTestByIndex
-19:55:10.590 [main] INFO  com.telran.qa16.tests.TestBase - Stop groupDeletionTestByIndex
-19:55:10.591 [main] INFO  com.telran.qa16.tests.TestBase - Start test groupDeletionTestByIndexWithList
-19:55:13.854 [main] INFO  com.telran.qa16.tests.TestBase - Stop groupDeletionTestByIndexWithList
-19:55:13.854 [main] INFO  com.telran.qa16.tests.TestBase - Start test groupDeletionTestList
-19:55:16.837 [main] INFO  com.telran.qa16.tests.TestBase - Stop groupDeletionTestList
-19:55:16.837 [main] INFO  com.telran.qa16.tests.TestBase - Start test groupModificationTest
-19:55:19.665 [main] INFO  com.telran.qa16.tests.TestBase - Stop groupModificationTest
-19:55:19.666 [main] INFO  com.telran.qa16.tests.TestBase - Start test groupModificationTestByIndex1
-19:55:22.458 [main] INFO  com.telran.qa16.tests.TestBase - Stop groupModificationTestByIndex1
-19:55:22.459 [main] INFO  com.telran.qa16.tests.TestBase - Start test groupModificationTestList
-19:55:25.922 [main] INFO  com.telran.qa16.tests.TestBase - Stop groupModificationTestList
+19:52:38.866 [main] INFO  com.telran.TestBase - Start test contactCreationByListTest
+19:52:43.449 [main] INFO  com.telran.TestBase - Stop contactCreationByListTest
+19:52:43.449 [main] INFO  com.telran.TestBase - Start test contactCreationTest1
+19:52:47.380 [main] INFO  com.telran.TestBase - Stop contactCreationTest1
+19:52:47.381 [main] INFO  com.telran.TestBase - Start test contactCreationTest2
+19:52:51.332 [main] INFO  com.telran.TestBase - Stop contactCreationTest2
+19:52:51.333 [main] INFO  com.telran.TestBase - Start test contactCreationTest3
+19:52:55.133 [main] INFO  com.telran.TestBase - Stop contactCreationTest3
+19:52:55.133 [main] INFO  com.telran.TestBase - Start test getContactList
+19:52:55.474 [main] INFO  com.telran.TestBase - Stop getContactList
+19:52:55.474 [main] INFO  com.telran.TestBase - Start test loginNegativeTest
+19:53:06.288 [main] INFO  com.telran.TestBase - Stop loginNegativeTest
+19:53:06.288 [main] INFO  com.telran.TestBase - Start test loginPositiveTest
+19:53:06.707 [main] INFO  com.telran.TestBase - Stop loginPositiveTest
+19:53:06.709 [main] INFO  com.telran.TestBase - Start test deleteAllContactsTest3
+19:53:13.914 [main] INFO  com.telran.TestBase - Stop deleteAllContactsTest3
+19:53:13.916 [main] INFO  com.telran.TestBase - Start test deleteContactByIndexUsingListTest
+19:53:30.363 [main] INFO  com.telran.TestBase - Stop deleteContactByIndexUsingListTest
+19:53:30.364 [main] INFO  com.telran.TestBase - Start test deleteContactTest1
+19:53:37.549 [main] INFO  com.telran.TestBase - Stop deleteContactTest1
+19:53:37.551 [main] INFO  com.telran.TestBase - Start test deleteContactTestByEditIcon
+19:53:51.940 [main] INFO  com.telran.TestBase - Stop deleteContactTestByEditIcon
+19:53:51.941 [main] INFO  com.telran.TestBase - Start test deleteContactUsingSelectByIndexTest
+19:54:08.292 [main] INFO  com.telran.TestBase - Stop deleteContactUsingSelectByIndexTest
+19:54:08.293 [main] INFO  com.telran.TestBase - Start test deleteContactWithListTest
+19:54:11.660 [main] INFO  com.telran.TestBase - Stop deleteContactWithListTest
+19:54:11.661 [main] INFO  com.telran.TestBase - Start test modifyContactTest
+19:54:24.669 [main] INFO  com.telran.TestBase - Stop modifyContactTest
+19:54:24.669 [main] INFO  com.telran.TestBase - Start test modifyContactTest1
+19:54:28.662 [main] INFO  com.telran.TestBase - Stop modifyContactTest1
+19:54:28.663 [main] INFO  com.telran.TestBase - Start test modifyContactUsingListTest
+19:54:32.369 [main] INFO  com.telran.TestBase - Stop modifyContactUsingListTest
+19:54:32.369 [main] INFO  com.telran.TestBase - Start test modifyContactUsingSelectByIndexTest
+19:54:40.286 [main] INFO  com.telran.TestBase - Stop modifyContactUsingSelectByIndexTest
+19:54:40.287 [main] INFO  com.telran.TestBase - Start test getGroupList
+19:54:50.886 [main] INFO  com.telran.TestBase - Stop getGroupList
+19:54:50.887 [main] INFO  com.telran.TestBase - Start test groupCreationTest
+19:54:53.591 [main] INFO  com.telran.TestBase - Stop groupCreationTest
+19:54:53.592 [main] INFO  com.telran.TestBase - Start test groupCreationTestList
+19:54:57.150 [main] INFO  com.telran.TestBase - Stop groupCreationTestList
+19:54:57.150 [main] INFO  com.telran.TestBase - Start test groupCreationTestList2
+19:55:00.477 [main] INFO  com.telran.TestBase - Stop groupCreationTestList2
+19:55:00.477 [main] INFO  com.telran.TestBase - Start test groupCreationTestWithLongName
+19:55:03.232 [main] INFO  com.telran.TestBase - Stop groupCreationTestWithLongName
+19:55:03.232 [main] INFO  com.telran.TestBase - Start test groupCreationTestWithoutName
+19:55:05.937 [main] INFO  com.telran.TestBase - Stop groupCreationTestWithoutName
+19:55:05.938 [main] INFO  com.telran.TestBase - Start test groupDeletionTest
+19:55:08.260 [main] INFO  com.telran.TestBase - Stop groupDeletionTest
+19:55:08.261 [main] INFO  com.telran.TestBase - Start test groupDeletionTestByIndex
+19:55:10.590 [main] INFO  com.telran.TestBase - Stop groupDeletionTestByIndex
+19:55:10.591 [main] INFO  com.telran.TestBase - Start test groupDeletionTestByIndexWithList
+19:55:13.854 [main] INFO  com.telran.TestBase - Stop groupDeletionTestByIndexWithList
+19:55:13.854 [main] INFO  com.telran.TestBase - Start test groupDeletionTestList
+19:55:16.837 [main] INFO  com.telran.TestBase - Stop groupDeletionTestList
+19:55:16.837 [main] INFO  com.telran.TestBase - Start test groupModificationTest
+19:55:19.665 [main] INFO  com.telran.TestBase - Stop groupModificationTest
+19:55:19.666 [main] INFO  com.telran.TestBase - Start test groupModificationTestByIndex1
+19:55:22.458 [main] INFO  com.telran.TestBase - Stop groupModificationTestByIndex1
+19:55:22.459 [main] INFO  com.telran.TestBase - Start test groupModificationTestList
+19:55:25.922 [main] INFO  com.telran.TestBase - Stop groupModificationTestList

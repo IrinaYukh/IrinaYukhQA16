@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="addressbook-web-tests_main" target="1.8" />
       <module name="addressbook-web-tests_test" target="1.8" />
+      <module name="autoauction_main" target="1.8" />
+      <module name="autoauction_test" target="1.8" />
       <module name="firstProject_main" target="1.8" />
       <module name="firstProject_test" target="1.8" />
       <module name="homeOwnTest_main" target="1.8" />

@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-web-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-web-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_main.iml" group="addressbook-web-tests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-web-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_test.iml" group="addressbook-web-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autoauction.iml" filepath="$PROJECT_DIR$/.idea/modules/autoauction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autoauction_main.iml" filepath="$PROJECT_DIR$/.idea/modules/autoauction_main.iml" group="autoauction" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autoauction_test.iml" filepath="$PROJECT_DIR$/.idea/modules/autoauction_test.iml" group="autoauction" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstProject.iml" filepath="$PROJECT_DIR$/.idea/modules/firstProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/firstProject_main.iml" group="firstProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/firstProject_test.iml" group="firstProject" />

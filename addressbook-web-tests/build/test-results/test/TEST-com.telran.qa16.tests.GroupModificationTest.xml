@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa16.tests.GroupModificationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-17T17:30:24" hostname="DESKTOP-Q5R7ENV" time="10.758">
+<testsuite name="com.telran.qa16.tests.GroupModificationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-20T17:03:57" hostname="DESKTOP-Q5R7ENV" time="9.056">
   <properties/>
-  <testcase name="groupModificationTest" classname="com.telran.qa16.tests.GroupModificationTest" time="3.517"/>
-  <testcase name="groupModificationTestByIndex1" classname="com.telran.qa16.tests.GroupModificationTest" time="3.506"/>
-  <testcase name="groupModificationTestList" classname="com.telran.qa16.tests.GroupModificationTest" time="3.734"/>
-  <system-out><![CDATA[[Name: modifyedName, id: 289 ; , Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 286 ; , Name: name, id: 287 ; ]
-[Name: F, id: 289 ; , Name: modifyedName2, id: 268 ; , Name: modifyedName2, id: 272 ; , Name: modifyedName2, id: 276 ; , Name: modifyedName2, id: 278 ; , Name: modifyedName2, id: 284 ; , Name: modifyedName2, id: 288 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 286 ; , Name: name, id: 287 ; ]
+  <testcase name="groupModificationTest" classname="com.telran.qa16.tests.GroupModificationTest" time="2.699"/>
+  <testcase name="groupModificationTestByIndex1" classname="com.telran.qa16.tests.GroupModificationTest" time="2.699"/>
+  <testcase name="groupModificationTestList" classname="com.telran.qa16.tests.GroupModificationTest" time="3.657"/>
+  <system-out><![CDATA[20:03:57.801 [Test worker] INFO  com.telran.qa16.tests.TestBase - Start test groupModificationTest
+[Name: F, id: 307 ; , Name: listNameG, id: 308 ; , Name: listNameG, id: 316 ; , Name: listNameG, id: 321 ; , Name: modifyedName, id: 306 ; , Name: modifyedName, id: 323 ; , Name: modifyedName2, id: 292 ; , Name: modifyedName2, id: 296 ; , Name: modifyedName2, id: 300 ; , Name: modifyedName2, id: 302 ; , Name: modifyedName2, id: 314 ; , Name: modifyedName2, id: 322 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 309 ; , Name: name, id: 310 ; , Name: name, id: 311 ; , Name: name, id: 312 ; , Name: name, id: 313 ; , Name: name, id: 319 ; , Name: name, id: 320 ; ]
+[Name: F, id: 307 ; , Name: listNameG, id: 308 ; , Name: listNameG, id: 316 ; , Name: listNameG, id: 321 ; , Name: modifyedName, id: 306 ; , Name: modifyedName, id: 323 ; , Name: modifyedName2, id: 292 ; , Name: modifyedName2, id: 296 ; , Name: modifyedName2, id: 300 ; , Name: modifyedName2, id: 302 ; , Name: modifyedName2, id: 314 ; , Name: modifyedName2, id: 322 ; , Name: modifyedName2, id: 252 ; , Name: name, id: 309 ; , Name: name, id: 310 ; , Name: name, id: 311 ; , Name: name, id: 312 ; , Name: name, id: 313 ; , Name: name, id: 319 ; , Name: name, id: 320 ; ]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

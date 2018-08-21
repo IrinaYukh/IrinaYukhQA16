@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa16.tests.ContactModificationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-08-17T17:31:09" hostname="DESKTOP-Q5R7ENV" time="19.447">
+<testsuite name="com.telran.qa16.tests.ContactModificationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-08-20T17:04:38" hostname="DESKTOP-Q5R7ENV" time="16.201">
   <properties/>
-  <testcase name="modifyContactTest" classname="com.telran.qa16.tests.ContactModificationTest" time="5.038"/>
-  <testcase name="modifyContactTest1" classname="com.telran.qa16.tests.ContactModificationTest" time="5.024"/>
-  <testcase name="modifyContactUsingListTest" classname="com.telran.qa16.tests.ContactModificationTest" time="4.473"/>
-  <testcase name="modifyContactUsingSelectByIndexTest" classname="com.telran.qa16.tests.ContactModificationTest" time="4.91"/>
-  <system-out><![CDATA[Name: Ivan   Family: Ivanov  id: 590
-Name: listName   Family: listFamily  id: 589
-Name: Richard   Family: Lockey  id: 592
-Name: John   Family: Smith  id: 591
-[[First name: Ivan, Last name: Ivanov, id: 590 ], [First name: listName, Last name: listFamily, id: 589 ], [First name: Richard, Last name: Lockey, id: 592 ], [First name: John, Last name: Smith, id: 591 ]]
-Name: changeIDname   Family: changeIDfamily  id: 590
-Name: listName   Family: listFamily  id: 589
-Name: Richard   Family: Lockey  id: 592
-Name: John   Family: Smith  id: 591
-[[First name: changeIDname, Last name: changeIDfamily, id: 590 ], [First name: listName, Last name: listFamily, id: 589 ], [First name: Richard, Last name: Lockey, id: 592 ], [First name: John, Last name: Smith, id: 591 ]]
+  <testcase name="modifyContactTest" classname="com.telran.qa16.tests.ContactModificationTest" time="4.156"/>
+  <testcase name="modifyContactTest1" classname="com.telran.qa16.tests.ContactModificationTest" time="3.922"/>
+  <testcase name="modifyContactUsingListTest" classname="com.telran.qa16.tests.ContactModificationTest" time="4.224"/>
+  <testcase name="modifyContactUsingSelectByIndexTest" classname="com.telran.qa16.tests.ContactModificationTest" time="3.895"/>
+  <system-out><![CDATA[20:04:38.788 [Test worker] INFO  com.telran.qa16.tests.TestBase - Start test modifyContactTest
+Name: Sema   Family: Fishman  id: 650
+Name: Ivan   Family: Ivanov  id: 648
+Name: listName   Family: listFamily  id: 647
+Name: Richard   Family: Lockey  id: 646
+Name: John   Family: Smith  id: 649
+Name: Maya   Family: Smith  id: 645
+[[First name: Sema, Last name: Fishman, id: 650 ], [First name: Ivan, Last name: Ivanov, id: 648 ], [First name: listName, Last name: listFamily, id: 647 ], [First name: Richard, Last name: Lockey, id: 646 ], [First name: John, Last name: Smith, id: 649 ], [First name: Maya, Last name: Smith, id: 645 ]]
+Name: changeIDname   Family: changeIDfamily  id: 650
+Name: Ivan   Family: Ivanov  id: 648
+Name: listName   Family: listFamily  id: 647
+Name: Richard   Family: Lockey  id: 646
+Name: John   Family: Smith  id: 649
+Name: Maya   Family: Smith  id: 645
+[[First name: changeIDname, Last name: changeIDfamily, id: 650 ], [First name: Ivan, Last name: Ivanov, id: 648 ], [First name: listName, Last name: listFamily, id: 647 ], [First name: Richard, Last name: Lockey, id: 646 ], [First name: John, Last name: Smith, id: 649 ], [First name: Maya, Last name: Smith, id: 645 ]]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

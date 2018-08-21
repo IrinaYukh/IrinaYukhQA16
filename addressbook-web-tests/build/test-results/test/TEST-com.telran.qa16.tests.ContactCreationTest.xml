@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa16.tests.ContactCreationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-08-17T17:30:45" hostname="DESKTOP-Q5R7ENV" time="24.144">
+<testsuite name="com.telran.qa16.tests.ContactCreationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-08-20T17:04:17" hostname="DESKTOP-Q5R7ENV" time="21.198">
   <properties/>
-  <testcase name="contactCreationByListTest" classname="com.telran.qa16.tests.ContactCreationTest" time="9.837"/>
-  <testcase name="contactCreationTest1" classname="com.telran.qa16.tests.ContactCreationTest" time="4.731"/>
-  <testcase name="contactCreationTest2" classname="com.telran.qa16.tests.ContactCreationTest" time="4.622"/>
-  <testcase name="contactCreationTest3" classname="com.telran.qa16.tests.ContactCreationTest" time="4.775"/>
-  <testcase name="getContactList" classname="com.telran.qa16.tests.ContactCreationTest" time="0.177"/>
-  <system-out><![CDATA[[]
-Name: listName   Family: listFamily  id: 589
-[[First name: listName, Last name: listFamily, id: 589 ]]
-Name:    Family:   id: 592
-Name: Ivan   Family: Ivanov  id: 590
-Name: listName   Family: listFamily  id: 589
-Name: John   Family: Smith  id: 591
-[[First name: , Last name: , id: 592 ], [First name: Ivan, Last name: Ivanov, id: 590 ], [First name: listName, Last name: listFamily, id: 589 ], [First name: John, Last name: Smith, id: 591 ]]
+  <testcase name="contactCreationByListTest" classname="com.telran.qa16.tests.ContactCreationTest" time="9.26"/>
+  <testcase name="contactCreationTest1" classname="com.telran.qa16.tests.ContactCreationTest" time="3.993"/>
+  <testcase name="contactCreationTest2" classname="com.telran.qa16.tests.ContactCreationTest" time="3.953"/>
+  <testcase name="contactCreationTest3" classname="com.telran.qa16.tests.ContactCreationTest" time="3.69"/>
+  <testcase name="getContactList" classname="com.telran.qa16.tests.ContactCreationTest" time="0.296"/>
+  <system-out><![CDATA[20:04:17.588 [Test worker] INFO  com.telran.qa16.tests.TestBase - Start test contactCreationByListTest
+Name: John   Family: Doe  id: 646
+Name: Maya   Family: Smith  id: 645
+[[First name: John, Last name: Doe, id: 646 ], [First name: Maya, Last name: Smith, id: 645 ]]
+Name: John   Family: Doe  id: 646
+Name: listName   Family: listFamily  id: 647
+Name: Maya   Family: Smith  id: 645
+[[First name: John, Last name: Doe, id: 646 ], [First name: listName, Last name: listFamily, id: 647 ], [First name: Maya, Last name: Smith, id: 645 ]]
+Name:    Family:   id: 650
+Name: John   Family: Doe  id: 646
+Name: Ivan   Family: Ivanov  id: 648
+Name: listName   Family: listFamily  id: 647
+Name: John   Family: Smith  id: 649
+Name: Maya   Family: Smith  id: 645
+[[First name: , Last name: , id: 650 ], [First name: John, Last name: Doe, id: 646 ], [First name: Ivan, Last name: Ivanov, id: 648 ], [First name: listName, Last name: listFamily, id: 647 ], [First name: John, Last name: Smith, id: 649 ], [First name: Maya, Last name: Smith, id: 645 ]]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
