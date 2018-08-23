@@ -103,7 +103,10 @@ public class ContactCreationTest extends TestBase
             contact.setId(max);
         }
         Assert.assertEquals(new HashSet<Object>(contactAfter), new HashSet<Object>(contactBefore));
+        System.out.println(contactBefore.toString());
+        System.out.println(contactAfter.toString());
     }
+
 
 }
 

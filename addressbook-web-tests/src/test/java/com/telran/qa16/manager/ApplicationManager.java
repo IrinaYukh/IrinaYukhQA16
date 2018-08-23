@@ -1,9 +1,10 @@
 package com.telran.qa16.manager;
 
-import org.openqa.selenium.WebDriver;
+import com.telran.qa16.tests.MyListener;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -13,7 +14,9 @@ public class ApplicationManager
     SessionHelper sessionHelper;
     GroupHelper groupHelper;
 
-    private WebDriver wd;
+
+    //   private WebDriver wd;
+    private EventFiringWebDriver wd;
     private String browser;
 
     public ApplicationManager(String browser) {
@@ -26,12 +29,16 @@ public class ApplicationManager
     {
         if (browser.equals(BrowserType.CHROME))
         {
-            wd = new ChromeDriver();
+            wd = new EventFiringWebDriver(new ChromeDriver());
         }
         else if(browser.equals(BrowserType.FIREFOX))
         {
-            wd=new FirefoxDriver();
+            wd= new EventFiringWebDriver(new FirefoxDriver());
         }
+
+        // call here MyListener
+        wd.register(new MyListener());
+
 
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         sessionHelper = new SessionHelper(wd);
