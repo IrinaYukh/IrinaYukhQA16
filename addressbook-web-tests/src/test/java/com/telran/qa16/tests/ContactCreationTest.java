@@ -81,11 +81,13 @@ public class ContactCreationTest extends TestBase
         List<ContactData> contactBefore = app.getContactHelper().getContactList();
 
         app.getContactHelper().goToAddNewContact();
+
         ContactData contact = new ContactData().setFirstname("listName")
                 .setLastname("listFamily")
                 .setAddress("Rehovot,")
                 .setEmail("list@mail.com").setPhone("08-654-2222");
         app.getContactHelper().fillContactForm(contact);
+
         app.getContactHelper().submitContactCreation();
 
         List<ContactData> contactAfter = app.getContactHelper().getContactList();
