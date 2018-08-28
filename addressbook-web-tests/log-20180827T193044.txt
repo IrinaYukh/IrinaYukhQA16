@@ -1,0 +1,46 @@
+19:30:47.625 [main] INFO  com.telran.qa16.tests.TestBase - By.name: userfound
+19:30:47.681 [main] INFO  com.telran.qa16.tests.TestBase - By.name: userfound
+19:30:47.705 [main] INFO  com.telran.qa16.tests.TestBase - By.name: userfound
+19:30:47.757 [main] INFO  com.telran.qa16.tests.TestBase - By.name: passfound
+19:30:47.798 [main] INFO  com.telran.qa16.tests.TestBase - By.name: passfound
+19:30:47.818 [main] INFO  com.telran.qa16.tests.TestBase - By.name: passfound
+19:30:47.860 [main] INFO  com.telran.qa16.tests.TestBase - By.xpath: //*[@type='submit']found
+19:30:48.010 [main] INFO  com.telran.qa16.tests.TestBase - Start test groupCreationTest
+19:30:53.309 [main] ERROR com.telran.qa16.tests.TestBase - ERROR!!! from Logscreen - 1535387453299 .pngorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'GROUPS')]"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-Q5R7ENV', ip: '172.27.106.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\MichaelY\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: ddf6f30a19508e4803aeeff035cb0e28
+*** Element info: {Using=xpath, value=//h1[contains(text(),'GROUPS')]}
+19:30:58.654 [main] ERROR com.telran.qa16.tests.TestBase - ERROR!!! from Logscreen - 1535387458652 .pngorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"new"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-Q5R7ENV', ip: '172.27.106.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\MichaelY\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: ddf6f30a19508e4803aeeff035cb0e28
+*** Element info: {Using=name, value=new}
+19:30:58.669 [main] INFO  com.telran.qa16.tests.TestBase - By.xpath: //*[@href='group.php']found
+19:30:58.776 [main] INFO  com.telran.qa16.tests.TestBase - By.name: selected[]found
+19:30:58.791 [main] INFO  com.telran.qa16.tests.TestBase - By.xpath: //*[@name='new']found
+19:30:58.881 [main] INFO  com.telran.qa16.tests.TestBase - By.name: group_namefound
+19:30:58.927 [main] INFO  com.telran.qa16.tests.TestBase - By.name: group_namefound
+19:30:58.955 [main] INFO  com.telran.qa16.tests.TestBase - By.name: group_namefound
+19:30:59.000 [main] INFO  com.telran.qa16.tests.TestBase - By.name: group_headerfound
+19:30:59.054 [main] INFO  com.telran.qa16.tests.TestBase - By.name: group_headerfound
+19:30:59.079 [main] INFO  com.telran.qa16.tests.TestBase - By.name: group_headerfound
+19:30:59.133 [main] INFO  com.telran.qa16.tests.TestBase - By.name: group_footerfound
+19:30:59.178 [main] INFO  com.telran.qa16.tests.TestBase - By.name: group_footerfound
+19:30:59.202 [main] INFO  com.telran.qa16.tests.TestBase - By.name: group_footerfound
+19:30:59.248 [main] INFO  com.telran.qa16.tests.TestBase - By.xpath: //input[@value='Enter information']found
+19:30:59.407 [main] INFO  com.telran.qa16.tests.TestBase - By.xpath: //a[contains(text(),'group page')]found
+19:31:01.503 [main] INFO  com.telran.qa16.tests.TestBase - By.name: selected[]found
+19:31:01.508 [main] INFO  com.telran.qa16.tests.TestBase - Stop groupCreationTest

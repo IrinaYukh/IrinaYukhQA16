@@ -25,7 +25,7 @@ public class ContactDataGenerator
 
         for(ContactData contact: contacts)
         {
-            writer.write(String.format("%s, %s, %s\n ", contact.getFirstname(), contact.getLastname(), contact.getAddress()));
+            writer.write(String.format("%s, %s, %s\n", contact.getFirstname(), contact.getLastname(), contact.getAddress()));
         }
         writer.close();
     }

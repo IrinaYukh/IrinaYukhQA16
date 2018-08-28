@@ -5,6 +5,7 @@ import com.telran.qa16.model.GroupData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -70,6 +71,9 @@ public class ContactHelper extends HelperBase
         type(By.name("address"), contactData.getAddress());
         type(By.name("home"), contactData.getPhone());
         type(By.name("email"), contactData.getEmail());
+        attach(By.name("photo"),contactData.getPhoto());
+
+        new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup()); // operation for drop-down list
     }
 
     public void submitContactCreation() {

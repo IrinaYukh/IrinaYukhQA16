@@ -4,15 +4,18 @@ import com.telran.qa16.model.GroupData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.*;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 
 
 public class GroupCreationTest extends TestBase
 {
-
 
     @Test
     public void groupCreationTest() throws InterruptedException {
@@ -112,6 +115,49 @@ public class GroupCreationTest extends TestBase
         app.getGroupHelper().goToGroupsPage();
 
         app.getGroupHelper().getGroupsList();
+    }
+
+    @DataProvider
+
+    public Iterator<Object[]>validGroups() throws IOException
+    {
+        List<Object[]>list = new ArrayList<>();
+
+     /*   list.add(new Object[]{new GroupData().setName("aa").setLogo("aa").setComment("aa")});
+        list.add(new Object[]{new GroupData().setName("jj").setLogo("jj").setComment("jj")}); */
+
+     // using generated file group.csv , reading from file by using Buffered Reader
+
+        BufferedReader reader = new BufferedReader(new FileReader( new File("src/test/resources/groups.csv")));
+
+        String line = reader.readLine();
+
+        while (line != null)
+        {
+            String[] split = line.split(","); // having values separated with ","
+            if (split.length != 3)  // checking, if on row are just 3 values. If the condition does not hold, make a break
+                break;
+            // add to list Object (type GroupData). First value with index=[0], second = [1], third = [2]
+            list.add(new Object[]{new GroupData().setName(split[0]).setLogo(split[1]).setComment(split[2])});
+            line = reader.readLine();
+        }
+        return list.iterator();
+    }
+
+    @Test(dataProvider ="validGroups")
+    public void groupCreationTestWithDataProvider(GroupData group) throws InterruptedException {
+        app.getGroupHelper().goToGroupsPage();
+
+        List<GroupData>groupsListBefore = app.getGroupHelper().getGroupsList();
+
+        app.getGroupHelper().initGroupCreation();
+        app.getGroupHelper().fillGroupForm(group);
+        app.getGroupHelper().submitGroupCreation();
+        app.getGroupHelper().returnToGroupPage();
+
+        List<GroupData>groupsListAfter = app.getGroupHelper().getGroupsList();
+
+        Assert.assertEquals(groupsListAfter.size(), groupsListBefore.size()+1);
     }
 
 }

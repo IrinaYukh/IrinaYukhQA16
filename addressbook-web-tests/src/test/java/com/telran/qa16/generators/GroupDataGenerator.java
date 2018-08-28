@@ -26,7 +26,7 @@ public class GroupDataGenerator
 
         for(GroupData group: groups)
         {
-            writer.write(String.format("%s, %s, %s\n ", group.getName(), group.getLogo(), group.getComment()));
+            writer.write(String.format("%s, %s, %s\n", group.getName(), group.getLogo(), group.getComment()));
         }
         writer.close();
     }

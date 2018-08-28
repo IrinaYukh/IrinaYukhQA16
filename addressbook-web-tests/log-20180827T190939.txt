@@ -1,0 +1,7 @@
+19:09:42.685 [main] INFO  com.telran.qa16.tests.TestBase - By.name: userfound
+19:09:42.740 [main] INFO  com.telran.qa16.tests.TestBase - By.name: userfound
+19:09:42.765 [main] INFO  com.telran.qa16.tests.TestBase - By.name: userfound
+19:09:42.810 [main] INFO  com.telran.qa16.tests.TestBase - By.name: passfound
+19:09:42.848 [main] INFO  com.telran.qa16.tests.TestBase - By.name: passfound
+19:09:42.870 [main] INFO  com.telran.qa16.tests.TestBase - By.name: passfound
+19:09:42.906 [main] INFO  com.telran.qa16.tests.TestBase - By.xpath: //*[@type='submit']found

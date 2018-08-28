@@ -1,2 +1,0 @@
-09:48:26.862 [main] INFO  com.telran.qa16.tests.TestBase - Start test contactCreationByListTest
-09:48:31.477 [main] INFO  com.telran.qa16.tests.TestBase - Stop contactCreationByListTest

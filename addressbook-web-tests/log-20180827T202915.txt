@@ -1,0 +1,32 @@
+20:29:18.090 [main] INFO  com.telran.qa16.tests.TestBase - By.name: userfound
+20:29:18.142 [main] INFO  com.telran.qa16.tests.TestBase - By.name: userfound
+20:29:18.170 [main] INFO  com.telran.qa16.tests.TestBase - By.name: userfound
+20:29:18.213 [main] INFO  com.telran.qa16.tests.TestBase - By.name: passfound
+20:29:18.263 [main] INFO  com.telran.qa16.tests.TestBase - By.name: passfound
+20:29:18.286 [main] INFO  com.telran.qa16.tests.TestBase - By.name: passfound
+20:29:18.332 [main] INFO  com.telran.qa16.tests.TestBase - By.xpath: //*[@type='submit']found
+20:29:18.494 [main] INFO  com.telran.qa16.tests.TestBase - Start test contactCreationTestWithPhotoAttach
+20:29:18.507 [main] INFO  com.telran.qa16.tests.TestBase - By.xpath: //table[@id='maintable']found
+20:29:18.528 [main] INFO  com.telran.qa16.tests.TestBase - By.name: selected[]found
+20:29:18.540 [main] INFO  com.telran.qa16.tests.TestBase - By.xpath: //a[@href='edit.php']found
+20:29:18.654 [main] INFO  com.telran.qa16.tests.TestBase - By.name: firstnamefound
+20:29:18.699 [main] INFO  com.telran.qa16.tests.TestBase - By.name: firstnamefound
+20:29:18.724 [main] INFO  com.telran.qa16.tests.TestBase - By.name: firstnamefound
+20:29:18.797 [main] INFO  com.telran.qa16.tests.TestBase - By.name: lastnamefound
+20:29:18.848 [main] INFO  com.telran.qa16.tests.TestBase - By.name: lastnamefound
+20:29:18.873 [main] INFO  com.telran.qa16.tests.TestBase - By.name: lastnamefound
+20:29:18.921 [main] INFO  com.telran.qa16.tests.TestBase - By.name: addressfound
+20:29:18.972 [main] INFO  com.telran.qa16.tests.TestBase - By.name: addressfound
+20:29:18.994 [main] INFO  com.telran.qa16.tests.TestBase - By.name: addressfound
+20:29:19.070 [main] INFO  com.telran.qa16.tests.TestBase - By.name: homefound
+20:29:19.128 [main] INFO  com.telran.qa16.tests.TestBase - By.name: homefound
+20:29:19.150 [main] INFO  com.telran.qa16.tests.TestBase - By.name: homefound
+20:29:19.203 [main] INFO  com.telran.qa16.tests.TestBase - By.name: emailfound
+20:29:19.253 [main] INFO  com.telran.qa16.tests.TestBase - By.name: emailfound
+20:29:19.277 [main] INFO  com.telran.qa16.tests.TestBase - By.name: emailfound
+20:29:19.342 [main] INFO  com.telran.qa16.tests.TestBase - By.name: photofound
+20:29:19.378 [main] INFO  com.telran.qa16.tests.TestBase - By.name: new_groupfound
+20:29:19.402 [main] INFO  com.telran.qa16.tests.TestBase - By.xpath: .//option[normalize-space(.) = "aa"]found
+20:29:19.452 [main] INFO  com.telran.qa16.tests.TestBase - By.name: submitfound
+20:29:22.978 [main] INFO  com.telran.qa16.tests.TestBase - By.name: selected[]found
+20:29:22.981 [main] INFO  com.telran.qa16.tests.TestBase - Stop contactCreationTestWithPhotoAttach
