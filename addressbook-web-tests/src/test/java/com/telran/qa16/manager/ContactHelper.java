@@ -73,7 +73,9 @@ public class ContactHelper extends HelperBase
         type(By.name("email"), contactData.getEmail());
         attach(By.name("photo"),contactData.getPhoto());
 
-        new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup()); // operation for drop-down list
+       if (contactData.getGroup() != null) {
+           new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+       }
     }
 
     public void submitContactCreation() {

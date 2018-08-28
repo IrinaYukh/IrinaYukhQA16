@@ -92,7 +92,7 @@ public class ContactCreationTest extends TestBase
         ContactData contact = new ContactData().setFirstname("listName")
                 .setLastname("listFamily")
                 .setAddress("Rehovot,")
-                .setEmail("list@mail.com").setPhone("08-654-2222").setGroup("aa");
+                .setEmail("list@mail.com").setPhone("08-654-2222");
         app.getContactHelper().fillContactForm(contact);
 
         app.getContactHelper().submitContactCreation();
@@ -128,7 +128,7 @@ public class ContactCreationTest extends TestBase
         {
             String[] split = line.split(",");
             list.add(new Object[]{new ContactData()
-                    .setFirstname(split[0]).setLastname(split[1]).setAddress(split[2]).setGroup("aa")});
+                    .setFirstname(split[0]).setLastname(split[1]).setAddress(split[2])});
             line = reader.readLine();
         }
         return list.iterator();
