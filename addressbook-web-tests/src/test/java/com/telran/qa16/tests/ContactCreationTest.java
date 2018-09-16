@@ -28,7 +28,7 @@ public class ContactCreationTest extends TestBase
         app.getContactHelper().fillContactForm(new ContactData().setFirstname("1Ivan")
                 .setLastname("1Ivanov")
                 .setAddress("Rehovot,25 Herzel Street, apt.7")
-                .setEmail("ivan57@mail.com").setPhone("08-654-2222").setPhoto(photo).setGroup("aa"));
+                .setEmail("ivan57@mail.com").setPhone("08-654-2222").setPhoto(photo));
         app.getContactHelper().submitContactCreation();
 
         int after = app.getContactHelper().getContactsSize();

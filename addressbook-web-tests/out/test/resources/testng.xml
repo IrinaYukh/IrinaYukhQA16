@@ -4,23 +4,23 @@
 
     <test name="Login">
         <classes>
-            <class name="com.telran.TestLogin"/>
+            <class name="com.telran.qa16.tests.TestLogin"/>
         </classes>
     </test>
 
     <test name="Groups" >
         <classes>
-            <class name="com.telran.GroupCreationTest" />
-            <class name="com.telran.GroupModificationTest" />
-            <class name="com.telran.GroupDeletionTest" />
+            <class name="com.telran.qa16.tests.GroupCreationTest" />
+            <class name="com.telran.qa16.tests.GroupModificationTest" />
+            <class name="com.telran.qa16.tests.GroupDeletionTest" />
         </classes>
     </test>
 
     <test name="Contacts" >
         <classes>
-            <class name="com.telran.ContactCreationTest" />
-            <class name="com.telran.ContactModificationTest" />
-            <class name="com.telran.ContactDeletionTest" />
+            <class name="com.telran.qa16.tests.ContactCreationTest" />
+            <class name="com.telran.qa16.tests.ContactModificationTest" />
+            <class name="com.telran.qa16.tests.ContactDeletionTest" />
         </classes>
     </test>
 
