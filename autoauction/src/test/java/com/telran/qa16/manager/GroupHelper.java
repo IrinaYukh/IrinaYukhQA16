@@ -1,6 +1,6 @@
 package com.telran.qa16.manager;
 
-import com.telran.qa16.model.GroupData;
+import com.telran.qa16.model.CompanyData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -43,9 +43,9 @@ public class GroupHelper extends HelperBase
 
     public void createGroup() throws InterruptedException {
         initGroupCreation();
-        fillGroupForm(new GroupData().setName("nameFromTestBase")
-                .setLogo("logoFromTestBase")
-                .setComment("commentFromTestBase"));
+        fillGroupForm(new CompanyData().setName("nameFromTestBase")
+                .setPhone("logoFromTestBase")
+                .setPositionName("commentFromTestBase"));
         submitGroupCreation();
         returnToGroupPage();
     }
@@ -67,10 +67,10 @@ public class GroupHelper extends HelperBase
 
     }
 
-    public void fillGroupForm(GroupData group) {
+    public void fillGroupForm(CompanyData group) {
         type(By.name("group_name"), group.getName());
-        type(By.name("group_header"), group.getLogo());
-        type(By.name("group_footer"), group.getComment());
+        type(By.name("group_header"), group.getPhone());
+        type(By.name("group_footer"), group.getPositionName());
     }
 
     public void submitGroupModification() {
@@ -94,16 +94,16 @@ public class GroupHelper extends HelperBase
     }
 
 
-    public List<GroupData> getGroupsList()
+    public List<CompanyData> getGroupsList()
     {
-        List<GroupData> groups = new ArrayList<>();
+        List<CompanyData> groups = new ArrayList<>();
 
         List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
         for (WebElement element: elements)
         {
             String name = element.getText();
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-            GroupData group = new GroupData().setId(id).setName(name);
+            CompanyData group = new CompanyData().setId(id).setName(name);
             groups.add(group);
         }
         System.out.println(groups);

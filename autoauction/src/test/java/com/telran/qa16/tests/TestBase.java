@@ -25,7 +25,7 @@ public class TestBase
         logger.info("Start test " + m.getName());
     }
 
-    @AfterMethod( alwaysRun = true)
+    @AfterMethod(alwaysRun = true)
     public void logTestStop(Method m)
     {
         logger.info("Stop " + m.getName());
